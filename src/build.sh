@@ -49,7 +49,7 @@ stack exec site build
 # Get previous files
 #git fetch --all
 cd ..
-git checkout master # --track origin/master
+git checkout main # --track origin/main
 
 # Overwrite existing files with new files
 # cp -archive _site/. ../
@@ -60,10 +60,10 @@ git stage -A
 git commit -m "publish"
 
 # Push
-git push origin master
+git push origin main
 git checkout develop
 
 # Restoration
 #git checkout develop
-#git branch -D master
+#git branch -D main
 #git stash pop
