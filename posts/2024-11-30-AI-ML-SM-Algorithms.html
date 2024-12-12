@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <script type="text/x-mathjax-config" src="../scripts/mathjax_conf.js"></script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-AMS-MML_HTMLorMML" async>
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <title>Hakyll Blog - Artificial Intelligence is just Statistical Modeling is just Algorithms that outsourced code to data</title> -->
+        <link rel="stylesheet" href="../css/default.css" />
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    </head>
+    <header>
+        <!-- <div class="logo">
+            <a href="/">Hakyll Blog</a>
+        </div> -->
+      <nav>
+        <ul>
+          <!-- <li><a href="/">main</a></li> -->
+          <li><div class="dropdown">
+          <button class="dropbtn"><a href="../about.html">Main</a></button>
+          <div class="dropdown-content">
+          <a href="../about.html#people">People</a>
+          <!-- <a href="/math.html">Math & Stats Essentials</a> -->
+          </div>
+          </div></li>
+          <li><div class="dropdown">
+          <button class="dropbtn"><a href="../science.html">Scientific<br>Research</br></a></button>
+          </div></li>
+  	      <li><div class="dropdown">
+            <button class="dropbtn"><a href="../advisory.html">Advisory & <br>Consulting</br></a></button>
+            <div class="dropdown-content">
+            <!-- <a href="/math102.html">MATH 102</a> -->
+            <a href="../advisory.html#data">AI & Data Strategy</a>
+            <a href="../advisory.html#statistics">Statistical Modeling</a>
+            <a href="../advisory.html#experiments">Data generation & Experimental Design</a>
+            <a href="../advisory.html#computing">Scientific & Mathematical Computing</a>
+            </div>
+          </div></li>
+          <li><div class="dropdown">
+          <button class="dropbtn"><a href="../training.html">Teaching & <br>Training</br></a></button>
+          <div class="dropdown-content">
+          <a href="../training.html#thinking">Scientific & Computational Thinking</a>
+          <a href="../training.html#math">Putting the Intelligence into the Artificial</a>
+          <a href="../training.html#carpentries">Coding & Data Carpentries</a>
+          </div>
+          </div></li>
+          <!-- <li><div class="dropdown">
+          <button class="dropbtn"><a href="/resources.html">resources</a></button>
+          </div></li> -->
+          <li><div class="dropdown">
+          <button class="dropbtn"><a href="../login.html">Agora</a></button>
+          <div class="dropdown-content">
+          <a href="../open.html">Continual Open Learning</a>
+          <a href="../visit.html">Visits</a>
+          </div>
+          </div></li>
+        </ul>
+      </nav>
+    </header>
+    <body>
+        <main role="main">
+            <h1>Artificial Intelligence is just Statistical Modeling is just Algorithms that outsourced code to data</h1>
+            <article>
+    <section class="header">
+    </section>
+    <section>
+        <p>Artificial Intelligence is just Machine Learning is just Statistical Modeling is just Algorithms in which explicit code instructions were replaced with data. There’s a lot to unpack there, so let’s integrate it by parts. First, let’s simplify the first statement: \[AI=ML=SM, \]
+we’ll do that by simply not going into that rabbit hole – sure you can argue that there are differences, and I belive they may be real, but they may be hype, they may be semantics, so we’ll just use these <em>Machine Learning</em> (<em>ML</em>) and <em>Statistical Modeling</em> (<em>SM</em>) interchangebly, because their mathematics is exactly the same.
+<em>AI</em>, in turn, is a very broad and diffuse term whose overuse made it vacuous in many (or most) contexts; nevertheless, we will continue to use it, because the implications of its application are very real and so is the general public’s interest in them. Also, we can understand <em>AI</em> by looking at its mathematical bases (i.e. ML/SM) without loss of generality and without losing the audience as well.
+So we can say that before their real-world application, AI/ML/SM is just math.</p>
+<p>The next step is defining “Algorithms” which has become a catch all term as well for everything under the hood in tech: search engines, social media, dating, job search, credit scores, adverstising, music and movie streaming, health.
+Down to its conceptual bases, an algorithm is simply something that performs a series of instructions – in a 20th-century computational context, more precisely, it performs precise instructions defined by code. Therefore, algorithms are just computations that automate some task.</p>
+<p>So say a teenager needs a movie recommendation. In the 20th century, the best way to do this would be to ask your friend who is a movie enthusiast, knowns you well, and had watched several movies with you – they knew all the features in movies you would enjoy, which movies have those features, what are the best options among those, and even those that match your current mood. This friend gets you, they’re smart, they’re an intelligent person; but there is no way a 20th-century algorithm can replicate every aspect of the process they used to recommend you a movie at that time – that was the expectation of “rule-based” or “<a href="https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence">Symbolic AI</a>” and it still sci-fi technology.</p>
+<p>Instead, 21st-century algorithms outsourced all of those nuanced assessments and detailed decisions that constitute intelligent actions data generated by humans – given enough data and a suitable statisical model, relationships can be extracted without the need to understand how they first arose.
+When millions of people watch and rate different movies, recommendations can be made by <a href="https://medium.com/@amartalks25603/python-based-netflix-recommendation-system-577716945791">collaborative filtering algorithms</a> (still, they kind of suck, and you are likely to be stuck trying to find something and then it’s too late to watch a three-hour movie anyway); chat bots cannot really chat, they are <a href="https://towardsdatascience.com/sequence-models-and-recurrent-neural-networks-rnns-62cadeb4f1e1">sequence models</a> “trained” on a corpus of data that need to be prompted to relate that input to an output.
+Like polynomial regression, the curve fit to some data can be used to generate new data that looks like the original data even if we don’t know how it was generated in the first place. We could simply choose a function and add noise to it, it would probably do more poorly, but we don’t say that an inferred polynomial was “trained” on the data, or call the random numbers generated with it AI.</p>
+<p>Of course the tasks performed by AI are more complicated and more useful than generating a few data points, maybe the methods themselves can open new knowledge avenues and make us learn about things that we wouldn’t have tried otherwise; nevertheless, anthropomorphizing them or trying to assign “general intelligence” to algorithms is not helpful. We should use and benefit from these applications with the novel results it can deliver, but all in all AI is just Algorithms that replaced the difficult parts of cognition with data.</p>
+<!-- <img src="/images/axesvectors1.jpg" class="textwidth">
+**Figure 1** Representation of a coordinate/vector in cartersian space and in a space defined by standard basis vectors -->
+
+        <code>
+        
+            -- caetano,
+         November 30, 2024
+        </code>
+    </section>
+</article>
+
+        </main>
+
+        <footer>
+          <ul>
+            <li><a href="https://faes.org/ap">
+              <img src="../images/faes.png" alt="AURORA" style="width:42px;height:42px;border:0;">
+            </a></li>
+            <li><a href="https://faes.instructure.com/">
+              <img src="../images/cv.png" alt="canvas" style="width:42px;height:42px;border:0;">
+            </a></li>
+            <li><a rel="me" href="https://mathstodon.xyz/@faesmath">
+              <img src="../images/mt.png" alt="mastodon" style="width:42px;height:42px;border:0;">
+            </a></li>
+            <li><a href="https://math.stackexchange.com">
+              <img src="../images/se.png" alt="stackexchange" style="width:42px;height:42px;border:0;">
+            </a></li>
+        </ul>
+
+          <p>
+          <i>This page is licensed under <a href="https://auroracollective.github.io/LICENSE.md">GNU General Public License version 3</a></i>
+          </p>
+          <p>
+          <i>created with</i> <a href="http://jaspervdj.be/hakyll">Hakyll</a>
+          </p>
+          </footer>
+    </body>
+</html>
