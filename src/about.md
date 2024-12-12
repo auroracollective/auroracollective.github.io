@@ -2,9 +2,12 @@
 title: Who we are, what we do, where we want to go
 layout: default
 ---
+
+# A space where knowledge comes to life
+
 <p>
 <!-- <img src="/images/me.png" alt="foto" class="alignright" width="210"/> -->
-Welcome. The Aurora is a non-profit collective of scholars, with a strong emphasis on hard science, without ever losing the tenderness of the humanities, nor losing our humanity itself.
+Welcome. Aurora Collective Intelligence, or The Aurora for short, is a non-profit collective of scholars, with a strong emphasis on hard science, without ever losing the tenderness of the humanities, nor losing our humanity itself.
 At the Aurora and in its many spaces we strive to create an inclusive environment for people of all ages, genders, nationalities, educational backgrounds, and other dimensions of human diversity.
 </p>
 
@@ -23,17 +26,32 @@ Overall, our vision is a knowledge ecosystem with low barriers for anyone who is
 
 ## Core collective
 
-### Caetano Souto Maior
 
-### Ana Martins Ribeiro
+### Ana Martins Ribeiro, M.Sc., Ph.D.
+Culture & Education Officer (CEO) \
+_Critical & Scientific Thinking, Communication, Responsible Research_
 
-### Daniel Damineli
+### Daniel Damineli, M.Sc., Ph.D.
+Computational, Systems & Oscillations Operator (CSO) \
+_Signal Processing, Dynamical Systems, Systems Science_
 
+### Caetano Souto Maior, M.Sc., M.P.H., Ph.D.
+Chief of Artificial Intelligence (AIC) \
+_Applied Mathematics, Statistical Modeling, Scientific Computing, Data Science_
 
 ## Advisory and mentoring committee
-
+TBA
 
 ## Visiting scholars
+_Coming soon_
+
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/aurora-collective/30min'});return false;"><img src="/images/favicon.png" class="full-width"></a>
+<!-- Calendly link widget end -->
+
+<iframe src="https://auroracollective.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 <!-- <p> <code>-- caetano </code> </p> -->
 
