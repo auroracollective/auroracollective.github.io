@@ -41,19 +41,19 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "files/*" $ do
+    match "files/*" $ do 
         route   idRoute
         compile copyFileCompiler
 
-    match "fonts/*" $ do
+    match "fonts/**" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*" $ do
+    match "css/**" $ do
         route   idRoute
         compile copyFileCompiler  -- compressCssCompiler
 
-    match "scss/*" $ do
+    match "scss/**" $ do
         route   idRoute
         compile copyFileCompiler  -- compressCssCompiler
 
