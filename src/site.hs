@@ -29,6 +29,14 @@ customPandocCompiler =
 
 main :: IO ()
 main = hakyll $ do
+    -- let baseurl = "http://127.0.0.1:8000/"
+    -- Use the baseurl in your route and url functions
+    -- For example:
+
+    -- match "css/*" $ do
+    --     route   $ setExtension "css" `composeRoutes` gsubRoute baseurl (const "")
+    --     compile compressCssCompiler
+
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -37,15 +45,15 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "fonts/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "css/*" $ do
         route   idRoute
         compile copyFileCompiler  -- compressCssCompiler
 
     match "scss/*" $ do
-        route   idRoute
-        compile copyFileCompiler  -- compressCssCompiler
-
-    match "fonts/*" $ do
         route   idRoute
         compile copyFileCompiler  -- compressCssCompiler
 
