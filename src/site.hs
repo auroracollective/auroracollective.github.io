@@ -37,7 +37,7 @@ main = hakyll $ do
     --     route   $ setExtension "css" `composeRoutes` gsubRoute baseurl (const "")
     --     compile compressCssCompiler
 
-    match "images/*" $ do
+    match "images/**" $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -45,17 +45,17 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "fonts/**" $ do
+    match "fonts/*" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/**" $ do
+    match "css/*" $ do
         route   idRoute
         compile copyFileCompiler  -- compressCssCompiler
 
-    match "scss/**" $ do
-        route   idRoute
-        compile copyFileCompiler  -- compressCssCompiler
+    -- match "scss/**" $ do
+    --    route   idRoute
+    --    compile copyFileCompiler  -- compressCssCompiler
 
     match "js/*" $ do
         route   idRoute
@@ -71,6 +71,12 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
+    match (fromList ["es/about.md", "es/people.md", "es/science.md", "es/advisory.md", "es/training.md", "es/data.md", "es/statistics.md", "es/experiments.md", "es/computing.md", "es/carpentries.md", "es/math.md", "es/thinking.md", "es/open.md", "es/visit.md"]) $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "es/templates/default.html" defaultContext
+            >>= relativizeUrls
+
     match "posts/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
@@ -78,7 +84,7 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
-    create ["lectures.html"] $ do
+    create ["posts.html"] $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
@@ -92,22 +98,16 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
+    match (fromList  ["index.html", "contact.html", "agora.html", "faq.html", "404.html"] ) $ do
+        route   idRoute
+        compile copyFileCompiler
 
-    match "index.html" $ do
-        route idRoute
-        compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
-            let indexCtx =
-                    listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "main"                `mappend`
-                    defaultContext
-
-            getResourceBody
-                >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "templates/default.html" indexCtx
-                >>= relativizeUrls
+    match (fromList  ["es/index.html", "es/contact.html", "es/agora.html"] ) $ do
+        route   idRoute
+        compile copyFileCompiler
 
     match "templates/*" $ compile templateBodyCompiler
+    match "es/templates/*" $ compile templateBodyCompiler
 
 
 --------------------------------------------------------------------------------

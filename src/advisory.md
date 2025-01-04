@@ -4,8 +4,9 @@ title: "Advisory & Consulting"
 layout: default
 ---
 
-
 We perform two kinds of individualized services for businesses and academics alike: **Consultancy** and **Advisory**. Consultancy focuses at helping solve specific problems over relatively short periods, while Advisory looks at the big picture by addressing broader issues over a longer time frame. Both our Consultancy and Advisory work are custom, one-on-one approaches tailored to clients's specific needs.
+
+<img src="/images/lampada.avif" style="display: block; margin: 0 auto; width: 40%;">
 
 The main broad areas where we provide our expertise are the following:
 
@@ -26,6 +27,7 @@ We can help you find the answer questions like:
 
 Whatever your industry and size of your company, department, or research group, we can help you assess your data needs, and assemble the tools required to take advantage of these technologies.
 
+<img src="/images/graph.webp" style="display: block; margin: 0 auto; width: 40%;">
 
 2. **<a id="experiments">Data generation & management</a>**
 
@@ -35,6 +37,7 @@ For non-experimental researchers, it is also essential to control several aspect
 
 If you already have a stream of data that is used in your organization, we can also streamline and optimize its generation, pre-processing, and data "wrangling" in general for it's future use with statistical, machine learning, or AI models as well as guide you through formalizing a [Data Management Plan](https://datamanagement.hms.harvard.edu/plan-design/data-management-plans) that fits your needs.
 
+<img src="/images/datacloud.webp" style="display: block; margin: 0 auto; width: 40%;">
 
 3. **<a id="statistics">Statistical Modeling</a>**
 
@@ -42,7 +45,6 @@ If you are already in the weeds of quantitative methods, you have been likely fa
 The already large field of statistics has grown exponentially with the explosion of the use of Machine Learning and the subsequent AI hype -- the good news is that you do not need a Ph.D. in statistics or computer science to benefit from this, that's what we are here for.
 
 Whether you are a scientist yourself requiring general input from experts in quantitative techniques, or a professional forging ahead who needs assistance with a specific implementation, we can support you in choosing, implementing, and justifying the use of your statistical methods.
-
 
 4. **<a id="computing">Scientific & Mathematical Computing</a>**
 
