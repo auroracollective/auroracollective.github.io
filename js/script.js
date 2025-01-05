@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const toggleButton = document.querySelector('.toggle-button');
-  const navbarLinks = document.querySelector('.navbar-links');
+  var toggleButton = document.querySelector('.toggle-button');
+  var mobileMenu = document.querySelector('.mobile-menu');
 
-  toggleButton.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active');
+  toggleButton.addEventListener('click', function() {
+    mobileMenu.classList.toggle('active');
   });
 
   showSlide(currentSlide);
