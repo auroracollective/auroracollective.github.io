@@ -90,7 +90,7 @@ main = hakyll $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "lectures"            `mappend`
+                    constField "title" "posts"               `mappend`
                     defaultContext
 
             makeItem ""
