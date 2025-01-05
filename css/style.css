@@ -146,12 +146,12 @@ body {
     font-size: 4vw; /* Adjust the value as needed */
   }
   .index-hero {
-    background-size: contain;
-    height: 60vh;
+    background-size: cover;
+    height: 50vh;
   }
   .agora-hero {
-    background-size: contain;
-    height: 60vh; 
+    background-size: cover;
+    height: 50h; 
   }
 }
 
