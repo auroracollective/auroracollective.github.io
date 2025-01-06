@@ -403,6 +403,10 @@ body main h1 {
   font-family: "Monaco", monospace;
 }
 
+.link-grid .grid-item a:hover {
+  color: royalblue;
+}
+
 .link-grid .grid-item p {
   font-size: 1rem;
   color: #122D47;
