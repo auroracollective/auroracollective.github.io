@@ -23,7 +23,9 @@
 
 #pass custom home dir as argument
 GITDIR=$1
-COPY=$2
+COMMESSAGE=$2
+COPY=$3
+
 
 # Temporarily store uncommited changes
 cd $GITDIR/auroracollective.github.io/src
@@ -38,7 +40,7 @@ fi
 
 # git stage <modified files here>
 git stage .
-git commit -m "hakyll build"
+git commit -m "$COMMESSAGE"
 git push origin develop
 
 # Build new files
