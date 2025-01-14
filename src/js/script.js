@@ -1,9 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
-  var toggleButton = document.querySelector('.toggle-button');
-  var mobileMenu = document.querySelector('.mobile-menu');
+  const toggleButton = document.querySelector('.toggle-button');
+  const closeButton = document.querySelector('.close-button');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  const navbarLinks = document.querySelector('.navbar-links');
 
-  toggleButton.addEventListener('click', function() {
+  toggleButton.addEventListener('click', () => {
     mobileMenu.classList.toggle('active');
+    navbarLinks.classList.toggle('active');
+  });
+
+  closeButton.addEventListener('click', () => {
+    mobileMenu.classList.remove('active');
+    navbarLinks.classList.remove('active');
   });
 
   showSlide(currentSlide);
@@ -28,5 +36,3 @@ function showSlide(index) {
 function nextSlide() {
   showSlide(currentSlide + 1);
 }
-
-// Remove the prevSlide function if it's no longer needed

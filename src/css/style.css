@@ -72,38 +72,6 @@ body {
   color: #fcf55f !important; /* Highlight the current page link */
 }
 
-@media (max-width: 768px) {
-  .toggle-button {
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 15px; /* Adjust the height to space the bars */
-    cursor: pointer;
-    margin-right: 1rem;
-  }
-
-  .toggle-button .bar {
-    height: 2px; /* Make the bars thinner */
-    width: 100%;
-    background-color: #fff;
-    border-radius: 2px;
-    margin: 4px 0; /* Add margin to space the bars */
-  }
-
-  .navbar-links {
-    display: none;
-  }
-
-  .navbar-links.active {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-right: 0;
-  }
-}
-
 /* Hero section styles */
 .hero-section {
   height: 130vh; /* Make the hero section taller than the viewport height */
@@ -128,31 +96,11 @@ body {
 }
 
 .agora-hero {
-  height: 110vh;
+  /* height: 110vh; */
   background-image: url('../images/Agora.avif'); /* Adjusted path to the image */
   background-size: cover;
   background-position: top center; /* Ensure the top part of the image is visible */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
-}
-
-@media (max-width: 768px) {
-  .hero-section {
-    padding-top: 10vh; /* To account for the fixed navbar */
-    margin-bottom: 0px; /* Reduce the margin for narrower widths */
-    background-position: center center; /* Move the background image further down */
-  }
-  .hero-header {
-    padding-top: 0.0rem; /* Add some space below the navbar */
-    font-size: 4vw; /* Adjust the value as needed */
-  }
-  .index-hero {
-    background-size: cover;
-    height: 50vh;
-  }
-  .agora-hero {
-    background-size: cover;
-    height: 50h; 
-  }
 }
 
 .hero-section h1 {
@@ -245,6 +193,15 @@ body main h1 {
   color: #333;
 }
 
+body main a {
+  color: royalblue;
+  text-decoration: none;
+}
+
+body main a:hover {
+  color: cornflowerblue;
+}
+
 /* Footer styles */
 .footer {
   background-color: #122D47; /* Dark blue background */
@@ -265,7 +222,8 @@ body main h1 {
 
 .footer-left h2 {
   font-size: 2rem;
-  margin: 0;
+  margin-left: 3rem;
+  margin-bottom: 0;
   font-weight: normal; /* Ensure normal font weight */
 }
 
@@ -331,48 +289,6 @@ body main h1 {
   color: #fcf55f;
 }
 
-/* Media query for narrower resolutions */
-@media (max-width: 768px) {
-  .footer {
-    flex-direction: column; /* Stack footer-left and footer-right vertically */
-    align-items: center;
-  }
-
-  .footer-left, .footer-right {
-    width: 100%;
-    text-align: center;
-    align-items: center;
-  }
-
-  .footer-right {
-    display: flex;
-    flex-direction: column; /* Stack footer-column elements vertically */
-    align-items: center;
-  }
-
-  .footer-left {
-    order: 2; /* Move the Aurora title and logo to the end */
-  }
-
-  .footer-column {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-}
-
-/* Media query for footer collapse */
-@media (max-width: 768px) {
-  .footer-right {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .footer-column {
-    margin-right: 0;
-    margin-bottom: 1rem;
-  }
-}
-
 /* Link grid styles */
 .link-grid {
   display: flex;
@@ -417,22 +333,6 @@ body main h1 {
   width: 80%; /* Scale the image to the width of the text */
   height: auto; /* Maintain the aspect ratio */
   margin-bottom: 10px;
-}
-
-/* Media query for narrower resolutions */
-@media (max-width: 768px) {
-  .link-grid {
-    margin-top: 20px; /* Reduce the margin for narrower widths */
-  }
-  .link-grid {
-    flex-direction: column; /* Stack grid items vertically */
-    align-items: center;
-  }
-
-  .link-grid .grid-item {
-    width: 80%; /* Full width for mobile view */
-    margin-bottom: 1rem;
-  }
 }
 
 /* Carousel styles */
@@ -516,16 +416,28 @@ body main h1 {
   z-index: 1000; /* Ensure it is above other content */
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .mobile-menu.active {
   display: flex;
 }
 
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
 .mobile-navbar-links {
   list-style: none;
   padding: 0;
   text-align: center;
+  font-size: 1.5rem;
+  font-family: "Monaco", monospace;
 }
 
 .mobile-navbar-links li {
@@ -536,13 +448,145 @@ body main h1 {
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
-  font-family: "Monaco", monospace;
-}
-
-.mobile-navbar-links img {
-  width: 40%;
 }
 
 .mobile-navbar-links a:hover {
   color: #fcf55f;
+}
+
+.mobile-navbar-links img {
+  max-width: 100px; /* Set a maximum width for the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px 0; /* Add some margin around the logo */
+}
+
+.mobile-menu .language-switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; /* Add some margin around the language switch */
+}
+
+.mobile-menu .language-switch .dropdown-content {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.toggle-button {
+  cursor: pointer;
+}
+
+/* Media query for narrower resolutions */
+@media (max-width: 768px) {
+  .toggle-button {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 15px; /* Adjust the height to space the bars */
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+
+  .toggle-button .bar {
+    height: 2px; /* Make the bars thinner */
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 4px 0; /* Add margin to space the bars */
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 0;
+  }
+
+  .hero-section {
+    padding-top: 10vh; /* To account for the fixed navbar */
+    margin-bottom: 0px; /* Reduce the margin for narrower widths */
+    background-position: center center; /* Move the background image further down */
+  }
+  .hero-header {
+    padding-top: 0.0rem; /* Add some space below the navbar */
+    font-size: 4vw; /* Adjust the value as needed */
+  }
+  
+  .index-hero {
+    background-size: cover;
+    height: 50vh;
+  }
+
+  .agora-hero {
+    background-size: cover;
+    height: 50h; 
+  }
+
+  .footer {
+    flex-direction: column; /* Stack footer-left and footer-right vertically */
+    align-items: center;
+  }
+
+  .footer-left, .footer-right {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column; /* Stack footer-column elements vertically */
+    align-items: center;
+  }
+
+  .footer-left {
+    order: 2; /* Move the Aurora title and logo to the end */
+  }
+
+  .footer-left h2 {
+    text-align: center;
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .footer-left img {
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .footer-license {
+    text-align: center;
+  }
+  
+  .footer-column {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .toggle-button {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+  
+  .link-grid {
+    margin-top: 20px; /* Reduce the margin for narrower widths */
+  }
+
+  .link-grid {
+    flex-direction: column; /* Stack grid items vertically */
+    align-items: center;
+  }
+
+  .link-grid .grid-item {
+    width: 80%; /* Full width for mobile view */
+    margin-bottom: 1rem;
+  }
 }
