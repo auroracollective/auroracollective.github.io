@@ -10,7 +10,8 @@ body {
   text-align: justify;
   font-size: 15pt;
   line-height: 1.5;
-  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif /* Garamond, "Hoefler Text" */
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif; /* Garamond, "Hoefler Text" */
+  background-color: #EAE3C9; /* Set the background color to white */
 }
 
 /* General styles for the navbar */
@@ -48,7 +49,7 @@ body {
 
 .navbar-links a {
   text-decoration: none;
-  color: #fff;
+  color: #F5F5DC;
   font-size: 1.1rem;
   transition: color 0.3s;
 }
@@ -59,7 +60,7 @@ body {
 
 .navbar-logo a {
   text-decoration: none;
-  color: #fff;
+  color: #F5F5DC;
   font-size: 1.4rem;
   transition: color 0.3s;
 }
@@ -129,7 +130,7 @@ body {
   text-align: center;
   font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
   font-weight: normal; /* Ensure normal font weight */
-  color: #f5f5dc;
+  color: #FFFDD0;
 }
 
 .hero-subheader {
@@ -205,7 +206,7 @@ body main a:hover {
 /* Footer styles */
 .footer {
   background-color: #122D47; /* Dark blue background */
-  color: white;
+  color: #F5F5DC;
   padding: 2rem 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -266,7 +267,7 @@ body main a:hover {
 }
 
 .footer-column ul li a {
-  color: white;
+  color: #F5F5DC;
   text-decoration: none;
 }
 
@@ -391,7 +392,7 @@ body main a:hover {
 }
 
 .dropdown-content a {
-  color: #ffffff;
+  color: #F5F5DC;
   padding: 8px 16px; /* Add padding to the links for symmetric spacing */
   text-decoration: none;
   display: block;
@@ -428,7 +429,7 @@ body main a:hover {
   top: 20px;
   right: 20px;
   font-size: 2rem;
-  color: white;
+  color: #F5F5DC;
   cursor: pointer;
 }
 
@@ -445,7 +446,7 @@ body main a:hover {
 }
 
 .mobile-navbar-links a {
-  color: white;
+  color: #F5F5DC;
   text-decoration: none;
   font-size: 1.5rem;
 }
