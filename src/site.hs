@@ -65,13 +65,15 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match (fromList ["about.md", "people.md", "science.md", "advisory.md", "training.md", "data.md", "statistics.md", "experiments.md", "computing.md", "carpentries.md", "math.md", "thinking.md", "open.md", "visit.md"]) $ do
+    match (fromList ["science.md", "advisory.md", "training.md", "privacy.md" ]) $ do
+        --"legal.md", "data.md", "statistics.md", "about.md", "people.md", "experiments.md", "computing.md", "carpentries.md", "math.md", "thinking.md", "open.md", "visit.md"
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
-    match (fromList ["es/about.md", "es/people.md", "es/science.md", "es/advisory.md", "es/training.md", "es/data.md", "es/statistics.md", "es/experiments.md", "es/computing.md", "es/carpentries.md", "es/math.md", "es/thinking.md", "es/open.md", "es/visit.md"]) $ do
+    match (fromList [ "es/science.md", "es/advisory.md", "es/training.md", "es/privacy.md" ]) $ do
+        -- "es/about.md", "es/people.md", "es/data.md", "es/statistics.md", "es/experiments.md", "es/computing.md", "es/carpentries.md", "es/math.md", "es/thinking.md", "es/open.md", "es/visit.md"
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "es/templates/default.html" defaultContext
@@ -102,7 +104,7 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match (fromList  ["es/index.html", "es/contact.html", "es/agora.html"] ) $ do
+    match (fromList  ["es/index.html", "es/contact.html", "es/agora.html", "es/faq.html", "es/404.html"] ) $ do
         route   idRoute
         compile copyFileCompiler
 
