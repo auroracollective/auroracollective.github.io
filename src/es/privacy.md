@@ -1,10 +1,8 @@
 ---
 author: caetano souto maior
-title: "Privacy & Data Protection Policies"
+title: "Política de Privacidad y Protección de Datos"
 layout: default
 ---
-
-Here is the translation of the provided text into Spanish from Spain:
 
 Este sitio web y todos sus contenidos, incluyendo textos, imágenes, sonido y cualquier otro material, son propiedad de AURORA COLLECTIVE INTELLIGENCE. Pueden ser utilizados bajo los términos de la LICENCIA PÚBLICA GENERAL DE GNU AFFERO versión 3
 
