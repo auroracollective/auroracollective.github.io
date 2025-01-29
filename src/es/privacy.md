@@ -80,8 +80,8 @@ El Sitio web contiene enlaces o conexiones a otros sitios web legítimos no gest
 AURORA COLLECTIVE INTELLIGENCE solo utilizará los datos personales de acuerdo con las disposiciones establecidas en la Política de Privacidad y Protección de Datos descrita aquí en el momento de recopilar los datos. AURORA COLLECTIVE INTELLIGENCE se reserva el derecho de rectificar esta Política de Privacidad y Protección de Datos en cualquier momento, con efecto a partir de la fecha de publicación de estas enmiendas en el sitio web.
 
 
-14. Legislación aplicable
+# 14. Legislación aplicable
 La privacidad de todos los datos recopilados por cualquier canal proporcionado por el sitio web está regulada por las regulaciones de protección de datos vigentes, especialmente el RGPD y la LOPDGDD.
 
-15. Cookies
+# 15. Cookies
 Este sitio web no utiliza cookies. Los servicios de terceros pueden utilizar cookies, que están reguladas por las políticas de esas organizaciones, como cualquier servicio de terceros, como se mencionó anteriormente.
