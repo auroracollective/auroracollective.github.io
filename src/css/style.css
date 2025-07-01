@@ -98,10 +98,11 @@ body {
 
 .agora-hero {
   /* height: 110vh; */
-  background-image: url('../images/Agora.avif'); /* Adjusted path to the image */
+  background-image: url('../images/Agora.png'); /* Adjusted path to the image */
   background-size: cover;
-  background-position: top center; /* Ensure the top part of the image is visible */
+  background-position: center; /* Center the image both vertically and horizontally */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-color: #122D47; /* Add a background color to fill empty space */
 }
 
 .hero-section h1 {
