@@ -10,7 +10,7 @@ We perform two kinds of individualized services for businesses and academics ali
 
 The main broad areas where we provide our expertise are the following:
 
-1. **<a id="data">Artificial Intelligence & Data Strategy</a>**
+1. **<a id="data" style="scroll-margin-top:10vh;"><a href="#data">Artificial Intelligence & Data Strategy</a></a>**
 
 What is your [Data Strategy](https://hbr.org/2017/05/whats-your-data-strategy)?
 Do you intend on using Artificial Intelligence, Data Science, Statistical Learning, Machine Learning, Deep Learning, or Big Data, to achieve your organization's goals?
@@ -29,7 +29,7 @@ Whatever your industry and size of your company, department, or research group, 
 
 <img src="/images/graph.webp" style="display: block; margin: 0 auto; width: 40%;">
 
-2. **<a id="experiments">Data generation & management</a>**
+2. **<a id="experiments" style="scroll-margin-top:10vh;"><a href="#experiments">Data generation & management</a></a>**
 
 Whatever data you have, it comes from somewhere and is generated somehow; however, not all data is created equal. Experimental design is the science behind science; as the name suggests, it allows researchers to control what their data sets look like.
 <!-- -->
@@ -39,14 +39,14 @@ If you already have a stream of data that is used in your organization, we can a
 
 <img src="/images/datacloud.webp" style="display: block; margin: 0 auto; width: 40%;">
 
-3. **<a id="statistics">Statistical Modeling</a>**
+3. **<a id="statistics" style="scroll-margin-top:10vh;"><a href="#statistics">Statistical Modeling</a></a>**
 
 If you are already in the weeds of quantitative methods, you have been likely faced with choices of statistical tests for an analysis, Machine Learning methods for an application, or more generally, with different alternatives of how to implement a statistical model.
 The already large field of statistics has grown exponentially with the explosion of the use of Machine Learning and the subsequent AI hype -- the good news is that you do not need a Ph.D. in statistics or computer science to benefit from this, that's what we are here for.
 
 Whether you are a scientist yourself requiring general input from experts in quantitative techniques, or a professional forging ahead who needs assistance with a specific implementation, we can support you in choosing, implementing, and justifying the use of your statistical methods.
 
-4. **<a id="computing">Scientific & Mathematical Computing</a>**
+4. **<a id="computing" style="scroll-margin-top:10vh;"><a href="#computing">Scientific & Mathematical Computing</a></a>**
 
 For some organizations, a basic (but solid) implementation will be the most cost-effective way of achieving its goals; for others, high-performance computing tools may be required. Testing, validating, benchmarking, and optimizing may come at the tail end of the entire process of implementing an algorithm; however, these choices should not be an afterthought -- writing proper reproducible code is costly, time consuming, and error prone. It is important to plan ahead, think these decisions through and make timely decisions for a project as a whole. Choices abound:
 

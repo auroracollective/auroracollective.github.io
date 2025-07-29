@@ -100,11 +100,11 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
-    match (fromList  ["index.html", "contact.html", "agora.html", "faq.html", "404.html"] ) $ do
+    match (fromList  ["index.html", "contact.html", "agora.html", "people.html", "faq.html", "404.html"] ) $ do
         route   idRoute
         compile copyFileCompiler
 
-    match (fromList  ["es/index.html", "es/contact.html", "es/agora.html", "es/faq.html", "es/404.html"] ) $ do
+    match (fromList  ["es/index.html", "es/contact.html", "es/agora.html", "es/people.html", "es/faq.html", "es/404.html"] ) $ do
         route   idRoute
         compile copyFileCompiler
 
