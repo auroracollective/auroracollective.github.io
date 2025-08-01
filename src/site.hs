@@ -73,10 +73,15 @@ main = hakyll $ do
             >>= relativizeUrls
 
     match (fromList [ "es/science.md", "es/advisory.md", "es/training.md", "es/privacy.md" ]) $ do
-        -- "es/about.md", "es/people.md", "es/data.md", "es/statistics.md", "es/experiments.md", "es/computing.md", "es/carpentries.md", "es/math.md", "es/thinking.md", "es/open.md", "es/visit.md"
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "es/templates/default.html" defaultContext
+            >>= relativizeUrls
+
+    match (fromList [ "ca/science.md", "ca/advisory.md", "ca/training.md", "ca/privacy.md" ]) $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "ca/templates/default.html" defaultContext
             >>= relativizeUrls
 
     match "posts/*" $ do
@@ -103,13 +108,19 @@ main = hakyll $ do
     match (fromList  ["index.html", "contact.html", "agora.html", "people.html", "faq.html", "404.html"] ) $ do
         route   idRoute
         compile copyFileCompiler
+    
+    match "templates/*" $ compile templateBodyCompiler
 
     match (fromList  ["es/index.html", "es/contact.html", "es/agora.html", "es/people.html", "es/faq.html", "es/404.html"] ) $ do
         route   idRoute
         compile copyFileCompiler
-
-    match "templates/*" $ compile templateBodyCompiler
     match "es/templates/*" $ compile templateBodyCompiler
+
+    match (fromList  ["ca/index.html", "ca/contact.html", "ca/agora.html", "ca/people.html", "ca/faq.html", "ca/404.html"] ) $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    match "ca/templates/*" $ compile templateBodyCompiler
 
 
 --------------------------------------------------------------------------------
