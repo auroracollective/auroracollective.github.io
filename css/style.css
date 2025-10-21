@@ -1,0 +1,595 @@
+/* Reset default margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  text-align: justify;
+  font-size: 15pt;
+  line-height: 1.5;
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif; /* Garamond, "Hoefler Text" */
+  background-color: #EAE3C9; /* Set the background color to white */
+}
+
+/* General styles for the navbar */
+.navbar {
+  background-color: #122D47;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-family: "Monaco", monospace; /* Apply monospace font to the navbar */
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.navbar-logo img {
+  height: 8vh;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 1rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #F5F5DC;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #fcf55f;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: #F5F5DC;
+  font-size: 1.4rem;
+  transition: color 0.3s;
+}
+
+.navbar-logo a:hover {
+  color: #fcf55f;
+}
+
+.current-page {
+  color: #fcf55f !important; /* Highlight the current page link */
+}
+
+/* Hero section styles */
+.hero-section {
+  height: 130vh; /* Make the hero section taller than the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 10vh; /* To account for the fixed navbar */
+  box-sizing: border-box; /* Include padding in height calculation */
+  background-size: cover;
+  background-position: top center; /* Ensure the top part of the image is visible */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+.index-hero {
+  background-image: url('../images/Aurora.avif'); /* Adjusted path to the image */
+  background-size: cover;
+  background-position: top center; /* Ensure the top part of the image is visible */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+.agora-hero {
+  /* height: 110vh; */
+  background-image: url('../images/Agora.png'); /* Adjusted path to the image */
+  background-size: cover;
+  background-position: center; /* Center the image both vertically and horizontally */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-color: #122D47; /* Add a background color to fill empty space */
+}
+
+.hero-section h1 {
+  font-size: 3rem; /* Make the title larger */
+  margin: 0;
+  padding-top: 2rem; /* Add some space below the navbar */
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif; /* Garamond, "Hoefler Text" */
+  font-weight: normal; /* Ensure normal font weight */
+  color: #f5f5dc; /* Light beige close to white */
+}
+
+.hero-section h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0;
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
+  font-weight: normal; /* Ensure normal font weight */
+  color: #a9a9a9; /* Darker shade of gray */
+  white-space: pre-line; /* Preserve whitespace for line breaks */
+  line-height: 1.5; /* Add more line spacing */
+}
+
+.hero-header {
+  padding-top: 2rem; /* Add some space below the navbar */
+  margin: 0;
+  font-size: 4vw; /* Adjust the value as needed */
+  text-align: center;
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
+  font-weight: normal; /* Ensure normal font weight */
+  color: #FFFDD0;
+}
+
+.hero-subheader {
+  font-size: 2vw; /* Adjust the value as needed */
+  text-align: center;
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
+  font-weight: normal; /* Ensure normal font weight */
+  color: #a9a9a9;
+  white-space: pre-line; /* Preserve whitespace for line breaks */
+  line-height: 1.5; /* Add more line spacing */
+}
+
+/* Simple text section styles */
+.home-text {
+  text-align: justify; /* Justify the text */
+  padding: 2rem;
+  font-family: "Verdana", sans-serif;
+  color: #333;
+  margin-top: 2vh; /* Add space below the navbar */
+  width: 80%; /* Set width to 70% of the page */
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14pt;
+  line-height: 2.0; /* Ensure 2.0 line spacing */
+}
+
+.home-text h1 {
+  text-align: center; /* Center the title */
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
+  font-size: 3rem;
+  color: #122D47;
+  white-space: pre-line; /* Preserve whitespace for line breaks */
+  line-height: 1.5; /* Add more line spacing */
+}
+
+.home-text h2 {
+  text-align: center; /* Center the title */
+  margin: 0.5rem 0 0;
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
+  font-size: 1.5rem;
+  color: royalblue;
+  white-space: pre-line; /* Preserve whitespace for line breaks */
+  line-height: 1.5; /* Add more line spacing */
+}
+
+/* Main content styles */
+body main {
+  padding-top: 10vh; /* Add space below the navbar */
+  width: 80%; /* Set width to 70% of the page */
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2.0; /* Ensure 2.0 line spacing */
+  font-family: "Verdana", sans-serif;
+  font-size: 13pt;
+}
+
+body main h1 {
+  text-align: center; /* Center the title */
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
+  font-size: 3rem;
+  color: #333;
+}
+
+body main a {
+  color: royalblue;
+  text-decoration: none;
+}
+
+body main a:hover {
+  color: cornflowerblue;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #122D47; /* Dark blue background */
+  color: #F5F5DC;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  font-family: "Monaco", monospace;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-left h2 {
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 0;
+  font-weight: normal; /* Ensure normal font weight */
+}
+
+.footer-left img {
+  height: 18vh; /* Make the logo larger */
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.footer-right {
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.footer-right img {
+  height: 1.5rem;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem; /* Add margin to align more closely to the right */
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: normal; /* Ensure normal font weight */
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+  color: #F5F5DC;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: none;
+  color: #fcf55f
+}
+
+.footer-license {
+  font-size: 0.8rem; /* Adjust the font size as needed */
+  text-align: left;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.footer-license a {
+  text-decoration: none;
+  font-size: 0.8rem; /* Adjust the font size as needed */
+  text-align: left;
+  margin-top: 10px; /* Adjust the margin as needed */
+  color: #fcf55f;
+}
+
+/* Link grid styles */
+.link-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%; /* Set width to 80% of the page */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem;
+  
+}
+
+.link-grid .grid-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: "Monaco", monospace;
+  width: 30%; /* Adjust width as needed for desktop view */
+  margin-bottom: 1rem;
+}
+
+.link-grid .grid-item a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #122D47;
+  text-decoration: none;
+  font-family: "Monaco", monospace;
+}
+
+.link-grid .grid-item a:hover {
+  color: royalblue;
+}
+
+.link-grid .grid-item p {
+  font-size: 1rem;
+  color: #122D47;
+  font-family: "Monaco", monospace;
+}
+
+.link-grid .grid-item img {
+  width: 80%; /* Scale the image to the width of the text */
+  height: auto; /* Maintain the aspect ratio */
+  margin-bottom: 10px;
+}
+
+
+/* Carousel styles */
+.carousel {
+  position: relative;
+  width: 80%;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  display: flex;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 20%; /* 100% / 5 images per slide */
+  display: block;
+}
+
+.centered-image {
+  display: block;
+  margin: 1rem auto; /* 1rem margin on top and bottom, auto for left and right */
+  width: 30%; /* Scale the image to 60% of the page width */
+}
+
+.language-switch {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.language-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #122D47;
+  min-width: 3rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0px; /* Add padding to create space inside the box */
+  left: 50%; /* Adjust this value to move the center further to the left */
+  transform: translateX(-50%); /* Center the dropdown */
+}
+
+.dropdown-content a {
+  color: #F5F5DC;
+  padding: 8px 16px; /* Add padding to the links for symmetric spacing */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #122D47;
+}
+
+.language-switch:hover .dropdown-content {
+  display: block;
+}
+
+.mobile-menu {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #122D47;
+  z-index: 1000; /* Ensure it is above other content */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mobile-menu.active {
+  display: flex;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  color: #F5F5DC;
+  cursor: pointer;
+}
+
+.mobile-navbar-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Monaco", monospace;
+}
+
+.mobile-navbar-links li {
+  margin: 20px 0;
+}
+
+.mobile-navbar-links a {
+  color: #F5F5DC;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.mobile-navbar-links a:hover {
+  color: #fcf55f;
+}
+
+.mobile-navbar-links img {
+  max-width: 100px; /* Set a maximum width for the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px 0; /* Add some margin around the logo */
+}
+
+.mobile-menu .language-switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; /* Add some margin around the language switch */
+}
+
+.mobile-menu .language-switch .dropdown-content {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.toggle-button {
+  cursor: pointer;
+}
+
+/* Media query for narrower resolutions */
+@media (max-width: 768px) {
+  .toggle-button {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 15px; /* Adjust the height to space the bars */
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+
+  .toggle-button .bar {
+    height: 2px; /* Make the bars thinner */
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 4px 0; /* Add margin to space the bars */
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 0;
+  }
+
+  .hero-section {
+    padding-top: 10vh; /* To account for the fixed navbar */
+    margin-bottom: 0px; /* Reduce the margin for narrower widths */
+    background-position: center center; /* Move the background image further down */
+  }
+  .hero-header {
+    padding-top: 0.0rem; /* Add some space below the navbar */
+    font-size: 4vw; /* Adjust the value as needed */
+  }
+  
+  .index-hero {
+    background-size: cover;
+    height: 50vh;
+  }
+
+  .agora-hero {
+    background-size: cover;
+    height: 50h; 
+  }
+
+  .footer {
+    flex-direction: column; /* Stack footer-left and footer-right vertically */
+    align-items: center;
+  }
+
+  .footer-left, .footer-right {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column; /* Stack footer-column elements vertically */
+    align-items: center;
+  }
+
+  .footer-left {
+    order: 2; /* Move the Aurora title and logo to the end */
+  }
+
+  .footer-left h2 {
+    text-align: center;
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .footer-left img {
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .footer-license {
+    text-align: center;
+  }
+  
+  .footer-column {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .toggle-button {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+  
+  .link-grid {
+    margin-top: 20px; /* Reduce the margin for narrower widths */
+  }
+
+  .link-grid {
+    flex-direction: column; /* Stack grid items vertically */
+    align-items: center;
+  }
+
+  .link-grid .grid-item {
+    width: 80%; /* Full width for mobile view */
+    margin-bottom: 1rem;
+  }
+}
