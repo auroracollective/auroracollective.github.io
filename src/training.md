@@ -28,15 +28,12 @@ Depending on the audience and goals of the organization, the level of detail and
 
 <img src="/images/multiplechoice.webp" style="display: block; margin: 0 auto; width: 40%;">
 
-<!--
-3. **<a id="carpentries" style="scroll-margin-top:10vh;"><a href="#carpentries">The Carpentries®</a></a>** (a.k.a. _Coding & Data Science Fundamentals_) -- 8-16 hours
 
-Coding has become a basic skill in today's world. For some it may seem like sorcery, or the tool of math whizzes -- nothing could be farther from the truth.
-Scientific thinking can be taught to anyone, and so can coding and data science.
+3. **<a id="carpentries" style="scroll-margin-top:10vh;"><a href="#carpentries">Building Blocks, Scafolding, Wiring, Plumbing & Carpentries®</a></a>** (a.k.a. _Fundamentals of Quantitative and Data Sciences_) -- 8-16 hours
 
-Like learning math or a foreign language, it is much easier when there are reasons to be motivated; when there is a context and environments that allows learners to live and breathe the curriculum.
-We teach Coding and Data Science fully customized to the context of your organization; alternatively the courses can be taught following the official Software and Data [Carpentries](https://carpentries.org/workshops/)® standard curricula.
+With Science are increasingly becoming multidisciplinary and technology rapidly becoming embedded in most industries, the technical bar becomes not only higher but more complex; therefore, skill development must keep up with custom-tailored training that fills these knowledge gaps. That is true not only for researchers and engineers, but also users of technology and professionals that end up interacting with tech, which is now a large portion of all profefssionals.
 
-The recommended formats take a lot of factors into consideration, and they can be tailored to your organization's needs.
--->
+We offer supplementary courses on any aspects of fundamentals such as Coding, Math, Statistics, Experimental Design, Scientific Method, Reproducible Workflows, and any other concepts that may be necessary to catch up to more advanced training. These may be combined in whatever proportion and order and adapted to the needs of specific teams or individuals.
+
+Fundamentals are taught in and adapted to the context of the real-world problems tackled by the organization or team, helping set the foundations for the use of advanced methods and designs adopted in the advanced, flagship courses.
 
