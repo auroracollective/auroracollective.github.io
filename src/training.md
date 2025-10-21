@@ -5,7 +5,7 @@ layout: default
 ---
 
 We provide hands-on courses on the big picture of quantitative analysis and how to convert generic conceptual problems into rigorous, scientific, unbiased computational frameworks -- from the conceptual and formal design, generation/collection of data sets, to the choice of the mathematical/statistical models, interpretation and communication of the analyses and results.
-Ultimately, their goal is to provide the tools to **stay relevant in the age of knowledge automation**, as we call our overarching program.
+Ultimately, their goal is to provide the tools to **Stay Relevant in the Age of Knowledge Automation**, as we call our overarching program.
 The courses can be adapted to a range of backgrounds, proficiency levels, and availability of time.
 Although they have a common core and several offshoots that can be combined and blended, our curriculum can be generally divided in two main parts. Additionally we are able to provide shorter, simpler courses (e.g. coding, introductory statistics, data wrangling, reproducible workflows) to complement our main offerings and get professionals and teams up to speed on some basics.
 
@@ -31,9 +31,9 @@ Depending on the audience and goals of the organization, the level of detail and
 
 3. **<a id="carpentries" style="scroll-margin-top:10vh;"><a href="#carpentries">Building Blocks, Scafolding, Wiring, Plumbing & Carpentries®</a></a>** (a.k.a. _Fundamentals of Quantitative and Data Sciences_) -- 8-16 hours
 
-With Science are increasingly becoming multidisciplinary and technology rapidly becoming embedded in most industries, the technical bar becomes not only higher but more complex; therefore, skill development must keep up with custom-tailored training that fills these knowledge gaps. That is true not only for researchers and engineers, but also users of technology and professionals that end up interacting with tech, which is now a large portion of all profefssionals.
+With science and technology becoming increasingly multidisciplinary and rapidly embedded in most industries, the technical bar becomes not only higher but more complex; therefore, skill development must keep up with custom-tailored training that fills these knowledge gaps. That is true not only for researchers and engineers, but also users of technology and professionals that end up interacting with tech, which is now a large portion of all profefssionals.
 
 We offer supplementary courses on any aspects of fundamentals such as Coding, Math, Statistics, Experimental Design, Scientific Method, Reproducible Workflows, and any other concepts that may be necessary to catch up to more advanced training. These may be combined in whatever proportion and order and adapted to the needs of specific teams or individuals.
 
-Fundamentals are taught in and adapted to the context of the real-world problems tackled by the organization or team, helping set the foundations for the use of advanced methods and designs adopted in the advanced, flagship courses.
+Fundamentals are taught in and adapted to the context of the real-world problems tackled by the organization or team, helping set the foundations for the use of methods and designs described in the advanced courses.
 
