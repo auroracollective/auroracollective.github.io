@@ -6,6 +6,8 @@ layout: default
 
 We perform two kinds of individualized services for businesses and academics alike: **Consultancy** and **Advisory**. Consultancy focuses at helping solve specific problems over relatively short periods, while Advisory looks at the big picture by addressing broader issues over a longer time frame. Both our Consultancy and Advisory work are custom, one-on-one approaches tailored to clients's specific needs.
 
+Rates start as low as **100 EUR/hour**; <a href="https://iwlm0hx5bxx.typeform.com/to/ixHOFO97" target="_blank" style="display: inline-block; padding: 0.1rem 0.5rem; background-color: #122D47; color: white; text-decoration: none; border-radius: 5px; font-family: 'Monaco', monospace; font-size: 1rem;">Request a quote</a> for detailed princing and discounts information.
+
 <img src="/images/lampada.avif" style="display: block; margin: 0 auto; width: 40%;">
 
 The main broad areas where we provide our expertise are the following:

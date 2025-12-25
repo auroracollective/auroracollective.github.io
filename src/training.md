@@ -9,6 +9,8 @@ Ultimately, their goal is to provide the tools to **Stay Relevant in the Age of 
 The courses can be adapted to a range of backgrounds, proficiency levels, and availability of time.
 Although they have a common core and several offshoots that can be combined and blended, our curriculum can be generally divided in two main parts. Additionally we are able to provide shorter, simpler courses (e.g. coding, introductory statistics, data wrangling, reproducible workflows) to complement our main offerings and get professionals and teams up to speed on some basics.
 
+Course pricing starts as low as **1000 EUR**, but varies considering duration, size of audience, and customization level; <a href="https://iwlm0hx5bxx.typeform.com/to/ixHOFO97" target="_blank" style="display: inline-block; padding: 0.1rem 0.5rem; background-color: #122D47; color: white; text-decoration: none; border-radius: 5px; font-family: 'Monaco', monospace; font-size: 1rem;">Request a quote</a> for detailed princing and discounts information.
+
 <img src="/images/drone.avif" style="display: block; margin: 0 auto; width: 40%;">
 
 1. **<a id="thinking" style="scroll-margin-top:10vh;"><a href="#thinking">From the Math to the Masses</a></a>** (a.k.a. _Scientific & Quantitative Thinking for Everyone_) -- 8-24 classroom hours (single day to few weeks distribution):

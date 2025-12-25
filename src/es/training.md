@@ -6,6 +6,8 @@ layout: default
 
 Ofrecemos cursos prácticos sobre cómo convertir problemas conceptuales genéricos en marcos cuantitativos rigurosos, científicos y no sesgados - desde el diseño conceptual y formal y la generación de conjuntos de datos, hasta la elección de herramientas matemáticas/estadísticas bien como la interpretación y comunicación de los análisis y resultados. Los cursos pueden adaptarse a una variedad de antecedentes, niveles de habilidad y disponibilidad de tiempo. Aunque tienen un núcleo común y varios ramos que pueden combinarse o fusionarse, nuestro currículum se centra en dos cursos clave, pero también cursos más cortos/sencillos para que profesionales y equipos se pongan al día en algunos conceptos básicos.
 
+El precio de los cursos parte de **1000 EUR**, pero varía según la duración, el tamaño del grupo y el nivel de personalización; <a href="https://iwlm0hx5bxx.typeform.com/to/ixHOFO97" target="_blank" style="display: inline-block; padding: 0.1rem 0.5rem; background-color: #122D47; color: white; text-decoration: none; border-radius: 5px; font-family: 'Monaco', monospace; font-size: 1rem;">Solicita un presupuesto</a> para información detallada de precios y descuentos.
+
 <img src="/images/drone.avif" style="display: block; margin: 0 auto; width: 40%;">
 
 1. **<a id="thinking" style="scroll-margin-top:10vh;"><a href="#thinking">From the Math to the Masses</a></a>** (a.k.a. _Scientific & Quantitative Thinking_) -- 8-24 horas aula (distribuidas desde un día hasta algunas semanas):

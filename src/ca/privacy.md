@@ -1,23 +1,23 @@
 ---
 author: caetano souto maior
-title: "Política de Privacidad y Protección de Datos"
+title: "Política de Privacitat i Protecció de Dades"
 layout: default
 ---
 
-Este sitio web y todos sus contenidos, incluyendo textos, imágenes, sonido y cualquier otro material, son propiedad de AURORA COLLECTIVE INTELLIGENCE. Pueden ser utilizados bajo los términos de la LICENCIA PÚBLICA GENERAL DE GNU AFFERO versión 3
+Aquest lloc web i tot el seu contingut, incloent textos, imatges, àudio i qualsevol altre material, són propietat d'AURORA COLLECTIVE INTELLIGENCE. Poden ser utilitzats sota els termes de la LICÈNCIA PÚBLICA GENERAL GNU AFFERO versió 3.
 
-AURORA COLLECTIVE INTELLIGENCE (en adelante también AURORA COLLECTIVE o, para simplificar y clarificar dentro de esta descripción de política, AURORA en esta descripción de política) es una marca registrada en la Oficina de Patentes y Marcas de España (OEPM) y se declara propietaria de este sitio web de acuerdo con todas las leyes aplicables.
+AURORA COLLECTIVE INTELLIGENCE (d'ara endavant també AURORA COLLECTIVE o, per simplificar dins d'aquesta política, AURORA) és una marca registrada a l'Oficina d'Especificacions i Marques d'Espanya (OEPM) i es declara propietària d'aquest lloc web d'acord amb les lleis aplicables.
 
-AURORA COLLECTIVE es responsable del servicio proporcionado a través de este sitio web, como se describe a continuación, donde "usuario" o "usuarios" se refiere a cualquier persona a la que se aplica la ley, tiene derecho a acceder al sitio web y lo hace.
+AURORA COLLECTIVE és responsable del servei proporcionat a través d'aquest lloc web, tal com es descriu a continuació, on "usuari" o "usuaris" es refereix a qualsevol persona a qui s'apliqui la llei i que tingui dret a accedir al lloc web.
 
-# 1. Identidad y datos de contacto
-De acuerdo con las regulaciones de protección de datos aplicables y, en particular, el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 sobre la protección de las personas físicas en lo que respecta al tratamiento de datos personales y la libre circulación de estos datos (en adelante, el "RGPD"), y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales (en adelante, la "LOPDGDD"), el Responsable del Tratamiento es:
+# 1. Identitat i dades de contacte
+D'acord amb les regulacions de protecció de dades aplicables i, en particular, el Reglament (UE) 2016/679 del Parlament Europeu i del Consell de 27 d'abril de 2016 relatiu a la protecció de les persones físiques pel que fa al tractament de dades personals i la lliure circulació d'aquestes dades (d'ara endavant, el "RGPD"), i la Llei Orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i Garantia dels Drets Digitals (d'ara endavant, la "LOPDGDD"), el Responsable del Tractament és:
 
-Responsable del tratamiento
+Responsable del tractament
 
 AURORA COLLECTIVE INTELLIGENCE
 
-Encargado del tratamiento
+Encarregat del tractament
 
 AURORA COLLECTIVE INTELLIGENCE
 
@@ -25,63 +25,67 @@ Carrer de Pallars, 194, Sant Martí, 08005 Barcelona
 
 Tel: 900 533 175
 
-Correo electrónico: auroracoll@proton.me
+Correu electrònic: auroracoll@proton.me
 
-Delegado de Protección de Datos: auroracoll@proton.me
+Delegat de Protecció de Dades: auroracoll@proton.me
 
-# 2. Cumplimiento de las regulaciones aplicables
-Este sitio web fue diseñado para cumplir con el RGPD y la LOPDGDD. Implementa medidas y procedimientos para garantizar y proteger la confidencialidad, integridad y disponibilidad de sus propios datos y los de sus usuarios.
+# 2. Compliment de la normativa aplicable
+Aquest lloc web ha estat dissenyat per complir el RGPD i la LOPDGDD. Implementa mesures i procediments per garantir i protegir la confidencialitat, integritat i disponibilitat de les seves dades i les dels seus usuaris.
 
-El usuario de los servicios del sitio web de AURORA COLLECTIVE (en adelante, "el Usuario") transfiere voluntariamente sus datos a través del Sitio web, habiendo sido informado previamente del uso y propósitos de todo tipo de tratamiento.
+L'usuari dels serveis del lloc web d'AURORA COLLECTIVE (d'ara endavant, "l'Usuari") transmet voluntàriament les seves dades a través del lloc web, després d'haver estat informat prèviament de l'ús i els propòsits de qualsevol tipus de tractament.
 
-# 3. Principios aplicados a su información personal
-Los datos suministrados a AURORA COLLECTIVE a través del sitio web, así como cualquier otro canal directo o indirecto que llegue al colectivo, serán tratados de acuerdo con las regulaciones de protección de datos vigentes y para el único propósito o propósitos acordados, que el usuario será informado en cada caso posible.
+# 3. Principis aplicats a la vostra informació personal
+Les dades subministrades a AURORA COLLECTIVE a través del lloc web, així com qualsevol altre canal directe o indirecte que arribi al col·lectiu, seran tractades d'acord amb la normativa vigent en matèria de protecció de dades i per a l'únic propòsit o propòsits acordats, dels quals l'usuari serà informat en cada cas.
 
-# 4. Recogida y tratamiento de datos personales
-El código implementado por AURORA COLLECTIVE para este sitio web no recoge, por diseño, datos directamente de los usuarios que acceden a él y lo utilizan de forma pasiva. Cualquier información recogida es proporcionada directamente por los usuarios a través de formularios incrustados o calendarios, por ejemplo, o recogida de forma pasiva por terceros como la plataforma de alojamiento y otras herramientas o componentes esenciales del sitio web a los que AURORA COLLECTIVE puede o no tener acceso solicitándolo o interactuando con esas herramientas y componentes. Tanto si están incrustados en el sitio web como si están enlazados a páginas externas, los servicios de terceros son responsables de sus propias políticas de privacidad y protección de datos, y pueden incluir, pero no se limitan a servicios como: GitHub, GitHub Pages, Calendly, Substack, LinkedIn, Stack Exchange, Google Analytics, servicios similares, o cualquier herramienta incluida posteriormente.
+# 4. Recollida i tractament de dades personals
+El codi implementat per AURORA COLLECTIVE per a aquest lloc web no recull, per disseny, dades directament dels usuaris que hi accedeixen i l'utilitzen de forma passiva. Qualsevol informació recollida és proporcionada directament pels usuaris mitjançant formularis incrustats o calendaris, per exemple, o recollida de forma passiva per tercers com la plataforma d'allotjament i altres eines o components essencials del lloc web als quals AURORA COLLECTIVE pot o no tenir accés sol·licitant-ho o interactuant amb aquestes eines i components. Tant si estan incrustats al lloc web com si estan vinculats a pàgines externes, els serveis de tercers són responsables de les seves pròpies polítiques de privacitat i protecció de dades, i poden incloure, però no es limiten a, serveis com: GitHub, GitHub Pages, Calendly, Substack, LinkedIn, Stack Exchange, Google Analytics, serveis similars o qualsevol eina incorporada posteriorment.
 
-# 5. Menores
-Los menores no deben utilizar los servicios disponibles en el Sitio web sin la autorización previa de su madre, padre, tutor o representante legal, que será el único responsable y responsable de todas las acciones realizadas a través del Sitio web por los menores a su cargo
+# 5. Menors
+Els menors no han d'utilitzar els serveis disponibles al lloc web sense l'autorització prèvia del seu pare, mare, tutor o representant legal, que serà l'únic responsable de totes les accions realitzades a través del lloc web pels menors al seu càrrec.
 
+# 6. Mesures de seguretat
+AURORA COLLECTIVE adopta els nivells de seguretat exigits per la normativa aplicable, particularment evitant la recopilació i l'emmagatzematge de dades sempre que sigui possible, com s'ha descrit anteriorment. Per a qualsevol dada obtinguda d'alguna de les formes descrites, AURORA COLLECTIVE INTELLIGENCE utilitza xifrat en emmagatzemar o transmetre dades, que només poden ser accedides per membres autoritzats per realitzar activitats i serveis autoritzats. A més, AURORA COLLECTIVE INTELLIGENCE fa servir eines i tècniques d'última generació per garantir la privacitat dels usuaris del lloc web.
 
-# 6. Medidas de seguridad
-AURORA COLLECTIVE adopta los niveles de seguridad requeridos por la regulación aplicable, particularmente no recopilando ni almacenando datos siempre que sea posible, como se describe anteriormente. Para cualquier dato obtenido de alguna de las formas descritas anteriormente, AURORA COLLECTIVE INTELLIGENCE utiliza cifrado al almacenar o transmitir cualquier dato, que solo puede ser accedido por miembros autorizados para realizar actividades autorizadas y proporcionar servicios autorizados. De lo contrario, AURORA COLLECTIVE INTELLIGENCE emplea herramientas y técnicas de última generación para garantizar la privacidad de los usuarios del sitio web.
+# 7. Transferència internacional de dades
+AURORA COLLECTIVE INTELLIGENCE no comparteix, transfereix, presta, ven, mostra, presenta, resumeix ni dóna accés a les dades obtingudes dels usuaris a cap altra part.
 
+# 8. Drets de les persones afectades i el seu exercici
+D'acord amb el RGPD i la LOPDGDD, els usuaris poden exercir els següents drets:
 
-# 7. Transferencia internacional de datos
-AURORA COLLECTIVE INTELLIGENCE no comparte, transfiere, presta, vende, muestra, presenta, resume o da acceso a los datos que obtiene de los usuarios a ninguna otra parte.
+- Dret d'accés a les dades.
+- Dret de rectificació de les dades.
+- Dret a sol·licitar la supressió de les dades.
+- Dret a sol·licitar la limitació del tractament de les dades.
+- Dret a oposar-se al tractament de les dades.
+- Dret a la portabilitat de les dades.
+- Dret a no ser objecte d'una decisió basada únicament en el tractament automatitzat de dades personals.
+- Dret a revocar el consentiment.
 
-# 8. Derechos de las personas afectadas y su ejercicio
-De acuerdo con el RGPD y la LOPDGDD, los usuarios pueden ejercer los siguientes derechos:
+AURORA COLLECTIVE INTELLIGENCE pot sol·licitar informació addicional que es consideri necessària per atendre adequadament les sol·licituds relacionades amb l'exercici d'aquests drets.
 
-Derecho de acceso a los datos. Derecho de rectificación de los datos. Derecho a solicitar la supresión de los datos. Derecho a solicitar la limitación del tratamiento de los datos. Derecho a oponerse al tratamiento de los datos. Derecho a la portabilidad de los datos. Derecho a no ser objeto de una decisión basada únicamente en el tratamiento automatizado de datos personales. Derecho a revocar el consentimiento.
+En cas de dubte raonable per part d'AURORA COLLECTIVE sobre la identitat de la persona interessada, AURORA COLLECTIVE pot sol·licitar una còpia d'un document que acrediti la seva identitat (per exemple, carnet de conduir vàlid, document d'identitat de la UE o passaport, així com vídeo gravat o en directe) per prevenir qualsevol violació o accés no autoritzat a dades personals.
 
-AURORA COLLECTIVE INTELLIGENCE puede solicitar cualquier información adicional que se considere necesaria para atender adecuadamente las solicitudes relacionadas con el ejercicio de los derechos.
+# 9. Informació comercial i promocional
+Si algun usuari sol·licita i autoritza AURORA COLLECTIVE INTELLIGENCE a enviar-li comunicacions comercials i/o promocionals, les dades personals que proporcionin mitjançant el formulari corresponent, correu electrònic o qualsevol canal seran tractades per AURORA COLLECTIVE INTELLIGENCE amb la finalitat de notificar-los sobre qualsevol contingut i servei associat.
 
-En caso de duda razonable por parte de AURORA COLLECTIVE sobre la identidad de la parte interesada, AURORA COLLECTIVE puede solicitar una copia de un documento que pruebe su identidad (por ejemplo, licencia de conducir válida de EE. UU. o del estado, tarjeta de identificación de la UE o pasaporte, así como video grabado o en vivo) para prevenir cualquier violación o acceso no autorizado a los datos personales.
+L'usuari pot revocar el seu consentiment en qualsevol moment mitjançant qualsevol dels canals de comunicació.
 
-# 9. Información comercial y promocional
-Si algún usuario solicita y autoriza a AURORA COLLECTIVE INTELLIGENCE a enviarles comunicaciones comerciales y/o promocionales, los datos personales que proporcionen a través del formulario correspondiente, correo electrónico o cualquier canal estarán sujetos a tratamiento por parte de AURORA COLLECTIVE INTELLIGENCE con el fin de notificarles sobre cualquier contenido y servicio asociado.
+# 10. Consentiment de l'usuari afectat
+L'usuari declara que ha llegit i acceptat explícitament aquesta Política de Privacitat i Protecció de Dades.
 
-El usuario puede revocar su consentimiento en cualquier momento accediendo a la escritura en cualquiera de los canales de comunicación.
+L'usuari s'obliga a eximir i indemnitzar AURORA COLLECTIVE INTELLIGENCE per qualsevol reclamació, multa o penalització que pugui derivar-se del incompliment de les obligacions descrites en aquest apartat.
 
-# 10. Consentimiento del usuario afectado
-El usuario declara que ha leído y aceptado explícitamente esta Política de Privacidad y Protección de Datos.
+# 11. Oposició o revocació del consentiment per al tractament de dades
+Qualsevol usuari pot revocar el consentiment per al tractament de les seves dades personals en qualsevol moment. Pot comunicar la seva revocació a auroracoll@proton.me. AURORA COLLECTIVE INTELLIGENCE no processarà més les dades dels usuaris que revocin el seu consentiment; no obstant això, AURORA COLLECTIVE INTELLIGENCE pot estar obligada a conservar dades per complir amb les lleis i normatives vigents.
 
-El usuario se compromete a eximir y indemnizar a AURORA COLLECTIVE INTELLIGENCE por cualquier reclamación, multa o penalización que pueda incurrir como resultado del incumplimiento de la obligación descrita en este párrafo.
+# 12. Enllaços a altres llocs web
+El lloc web conté enllaços o connexions a altres llocs web legítims que no estan gestionats per AURORA COLLECTIVE INTELLIGENCE, els quals són responsables de la seva pròpia privacitat i sobre els quals AURORA COLLECTIVE INTELLIGENCE no té autoritat ni pot assumir responsabilitat.
 
-# 11. Oposición o revocación del consentimiento para el tratamiento de datos
-Cualquier usuario puede revocar el consentimiento para el tratamiento de sus datos personales en cualquier momento. Puede comunicar su revocación a auroracoll@proton.me. AURORA COLLECTIVE INTELLIGENCE no procesará más datos de los usuarios que revocan su consentimiento; sin embargo, AURORA COLLECTIVE INTELLIGENCE puede estar obligada a mantener los datos para cumplir con las leyes y regulaciones vigentes.
+# 13. Canvis en la Política de Privacitat
+AURORA COLLECTIVE INTELLIGENCE només farà servir les dades personals d'acord amb les disposicions establertes en aquesta Política de Privacitat i Protecció de Dades en el moment de la recollida de les dades. AURORA COLLECTIVE INTELLIGENCE es reserva el dret de rectificar aquesta Política de Privacitat i Protecció de Dades en qualsevol moment, amb efecte des de la data de publicació de les esmentades esmenes al lloc web.
 
-# 12. Enlaces a otros sitios web
-El Sitio web contiene enlaces o conexiones a otros sitios web legítimos no gestionados por AURORA COLLECTIVE INTELLIGENCE, que son responsables de su propia privacidad y sobre los que AURORA COLLECTIVE INTELLIGENCE no tiene autoridad y no puede asumir responsabilidad.
-
-# 13. Cambios en la Política de Privacidad
-AURORA COLLECTIVE INTELLIGENCE solo utilizará los datos personales de acuerdo con las disposiciones establecidas en la Política de Privacidad y Protección de Datos descrita aquí en el momento de recopilar los datos. AURORA COLLECTIVE INTELLIGENCE se reserva el derecho de rectificar esta Política de Privacidad y Protección de Datos en cualquier momento, con efecto a partir de la fecha de publicación de estas enmiendas en el sitio web.
-
-
-# 14. Legislación aplicable
-La privacidad de todos los datos recopilados por cualquier canal proporcionado por el sitio web está regulada por las regulaciones de protección de datos vigentes, especialmente el RGPD y la LOPDGDD.
+# 14. Legislació aplicable
+La privacitat de totes les dades recollides per qualsevol canal proporcionat pel lloc web està regulada per la normativa de protecció de dades vigent, especialment el RGPD i la LOPDGDD.
 
 # 15. Cookies
-Este sitio web no utiliza cookies. Los servicios de terceros pueden utilizar cookies, que están reguladas por las políticas de esas organizaciones, como cualquier servicio de terceros, como se mencionó anteriormente.
+Aquest lloc web no utilitza cookies. Els serveis de tercers poden utilitzar cookies, les quals estan regulades per les polítiques d'aquestes organitzacions, tal com s'ha esmentat anteriorment.

@@ -6,6 +6,8 @@ layout: default
 
 Ofrecemos dos tipos de servicios personalizados para profesionales en la industria o academia: Consultoría y Asesoría. La Consultoría se centra en ayudar a resolver problemas específicos en períodos relativamente cortos, mientras que la Asesoría se enfoca en la visión general abordando cuestiones más amplias a largo plazo. Tanto nuestra Consultoría como nuestra Asesoría son enfoques personalizados y individuales adaptados a las necesidades específicas de cada uno de nuestros clientes.
 
+Las tarifas comienzan desde **100 EUR/hora**; <a href="https://iwlm0hx5bxx.typeform.com/to/ixHOFO97" target="_blank" style="display: inline-block; padding: 0.1rem 0.5rem; background-color: #122D47; color: white; text-decoration: none; border-radius: 5px; font-family: 'Monaco', monospace; font-size: 1rem;">Solicita un presupuesto</a> para información detallada de precios y descuentos.
+
 <img src="/images/lampada.avif" style="display: block; margin: 0 auto; width: 40%;">
 
 Las principales áreas en las que ofrecemos nuestra experiencia son las siguientes:
