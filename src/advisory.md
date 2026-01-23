@@ -4,7 +4,7 @@ title: "Advisory & Consulting"
 layout: default
 ---
 
-We perform two kinds of individualized services for businesses and academics alike: **Consultancy** and **Advisory**. Consultancy focuses at helping solve specific problems over relatively short periods, while Advisory looks at the big picture by addressing broader issues over a longer time frame. Both our Consultancy and Advisory work are custom, one-on-one approaches tailored to clients's specific needs.
+We perform two kinds of individualized services for businesses and academics alike: **Consultancy** and **Advisory**. Consultancy focuses at helping solve specific problems over relatively short periods, while Advisory looks at the big picture by addressing broader issues over a longer time frame. Both our Consultancy and Advisory work are custom, one-on-one approaches tailored to clients' specific needs.
 
 Rates start as low as **100 EUR/hour**; <a href="https://iwlm0hx5bxx.typeform.com/to/ixHOFO97" target="_blank" style="display: inline-block; padding: 0.1rem 0.5rem; background-color: #122D47; color: white; text-decoration: none; border-radius: 5px; font-family: 'Monaco', monospace; font-size: 1rem;">Request a quote</a> for detailed princing and discounts information.
 
@@ -13,7 +13,7 @@ Rates start as low as **100 EUR/hour**; <a href="https://iwlm0hx5bxx.typeform.co
 The main broad areas where we provide our expertise are the following:
 
 
-1. **<a id="statistics" style="scroll-margin-top:10vh;"><a href="#statistics">Statistical Modeling & Machine Learning</a></a>**
+1. **<a id="statistics" style="scroll-margin-top:10vh;"><a href="#statistics">Automation, Statistical Modeling & Machine Learning</a></a>**
 
 If you are already in the weeds of quantitative methods, you have been likely faced with choices of statistical tests for an analysis, Machine Learning methods for an application, or more generally, with different alternatives of how to implement a statistical model.
 The already large field of statistics has grown exponentially with the explosion of the use of Machine Learning and the subsequent AI hype -- the good news is that you do not need a Ph.D. in statistics or computer science to benefit from this, that's what we are here for.

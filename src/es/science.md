@@ -8,7 +8,7 @@ El colectivo integra décadas de experiencia en investigación en varias áreas 
 
 <img src="/images/euler.png" class="centered-image">
 
-Es un pensamiento bastante sorprendente que unos pocos investigadores en etapas tempranas de su carrera (también conocidos como ECRs) puedan tener más de una vida humana de experiencia en investigación. Sin embargo, cuando se pone en perspectiva, también se tiener que ser humilde cuando nos recordamos que hay varios millones de investigadores a tiempo completo en el mundo, más que en cualquier otro período de la historia, y por lo tanto millones de años-persona dedicados al conocimiento cada año. Podríamos intentar destacarnos mediante la evaluación de métricas académicas estándar utilizados para evaluar el rendimiento científico; sin embargo, nuestro objetivo es ortogonal a eso, y proponemos una bifurcación completa en la carrera académica estándar.
+Es un pensamiento bastante sorprendente que unos pocos investigadores en etapas tempranas de su carrera (también conocidos como ECRs) puedan tener más de una vida humana de experiencia en investigación. Sin embargo, cuando se pone en perspectiva, también hay que ser humilde cuando nos recordamos que hay varios millones de investigadores a tiempo completo en el mundo, más que en cualquier otro período de la historia, y por lo tanto millones de años-persona dedicados al conocimiento cada año. Podríamos intentar destacarnos mediante la evaluación de métricas académicas estándar utilizadas para evaluar el rendimiento científico; sin embargo, nuestro objetivo es ortogonal a eso, y proponemos una bifurcación completa en la carrera académica estándar.
 
 <img src="/images/micro.avif" style="display: block; margin: 1rem auto; width: 40%;">
 

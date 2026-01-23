@@ -10,27 +10,23 @@ El precio de los cursos parte de **1000 EUR**, pero varía según la duración, 
 
 <img src="/images/drone.avif" style="display: block; margin: 0 auto; width: 40%;">
 
-1. **<a id="thinking" style="scroll-margin-top:10vh;"><a href="#thinking">From the Math to the Masses</a></a>** (a.k.a. _Scientific & Quantitative Thinking_) -- 8-24 horas aula (distribuidas desde un día hasta algunas semanas):
+1. **<a id="thinking" style="scroll-margin-top:10vh;"><a href="#thinking">From the Math to the Masses</a></a>** (a.k.a. Pensamiento Científico & Cuantitativo) -- 8-24 horas aula (distribuidas desde un día hasta algunas semanas):
 
 Nuestro primer curso _flaghship_. De las Matemáticas a las Masas utiliza un enfoque basado en problemas del mundo real para enseñar y demostrar el proceso de desarrollar una idea vaga en un proyecto de investigación concreto, científico y estadísticamente preciso. Muestra cómo podemos utilizar modelos estadísticos (incluyendo aprendizaje automático/inteligencia artificial) para formalizar y resolver problemas abiertos, pero cómo la inteligencia natural sigue siendo insustituible en este proceso. Es el curso más amplio y complejo, también el más flexible y adaptable a diferentes contextos. Puede enseñarse como un curso intensivo corto, o durante un período más largo. Su audiencia puede variar desde profesionales menos técnicos - que ganarán una comprensión de cómo pensar científicamente y formular problemas del mundo real como tareas cuantificables y algorítmicas - hasta personal técnico muy especializado que se beneficiará de adquirir una visión crítica y científica de las herramientas del oficio. La habilidad más importante que cualquier profesional aprenderá en este curso es la importancia de la interacción entre humanos y tecnología para resolver problemas en su organización.
 
 <img src="/images/dumb.avif" style="display: block; margin: 0 auto; width: 40%;">
 
-2. **<a id="math" style="scroll-margin-top:10vh;"><a href="#math">Putting the Intelligence into the Artificial</a></a>** (a.k.a. _AI, Machine Learning, Big Data Algorithms, Mathematical Modeling & Statistical Inference_) -- 8-24 horas aula (distribuidas desde un día hasta algunas semanas):
+2. **<a id="math" style="scroll-margin-top:10vh;"><a href="#math">Putting the Intelligence into the Artificial</a></a>** (_IA, Aprendizaje Automático, Algoritmos Big Data, Modelado Matemático y Inferencia Estadística_) -- 8-24 horas aula (distribuidas desde un día hasta algunas semanas):
 
 El segundo curso es independiente de la mayoría de los conceptos del primero, se adentra más en las bases de la inferencia estadística y el modelado matemático, que subyacen a toda la ciencia de datos, el aprendizaje automático y, en general, cualquier tipo de análisis que utilice datos - se basa en definiciones formales mientras mantiene una presentación intuitiva. También utilizará problemas del mundo real para trabajar en el proceso de construir todas las partes de un modelo matemático (sea lineal, no lineal, regresión, clasificación, aprendizaje automático, ecuaciones diferenciales, o cualquier otro), expandir la estructura del modelo determinístico en un modelo estadístico, y utilizarlo en el problema inverso de identificar características y mecanismos desconocidos a partir de los datos generados por el sistema. Dependiendo de la audiencia y los objetivos de la organización, el nivel de detalle y especialización puede ajustarse al nivel de habilidad matemática y de programación, desde un enfoque de modelado de alto nivel hasta una implementación desde cero de modelos avanzados.
 
 <img src="/images/multiplechoice.webp" style="display: block; margin: 0 auto; width: 40%;">
 
-<!--
-3. **<a id="carpentries">The Carpentries®</a>** (a.k.a. _Coding & Data Science Fundamentals_) -- 8-16 hours
 
-Coding has become a basic skill in today's world. For some it may seem like sorcery, or the tool of math whizzes -- nothing could be farther from the truth.
-Scientific thinking can be taught to anyone, and so can coding and data science.
+3. **<a id="carpentries" style="scroll-margin-top:10vh;"><a href="#carpentries">Bloques de Construcción, Andamiaje, Cableado, Fontanería y Carpinterías®</a></a>** (también conocido como _Fundamentos de las Ciencias Cuantitativas y de Datos_) -- 8-16 horas
 
-Like learning math or a foreign language, it is much easier when there are reasons to be motivated; when there is a context and environments that allows learners to live and breathe the curriculum.
-We teach Coding and Data Science fully customized to the context of your organization; alternatively the courses can be taught following the official Software and Data [Carpentries](https://carpentries.org/workshops/)® standard curricula.
+Con la ciencia y la tecnología volviéndose cada vez más multidisciplinarias y rápidamente integradas en la mayoría de las industrias, el listón técnico no solo se eleva, sino que también se vuelve más complejo. Por lo tanto, el desarrollo de habilidades debe mantenerse al día con una formación personalizada que llene estos vacíos de conocimiento. Esto es cierto no solo para investigadores e ingenieros, sino también para usuarios de tecnología y profesionales que terminan interactuando con ella, lo que ahora representa una gran parte de todos los profesionales.
 
-The recommended formats take a lot of factors into consideration, and they can be tailored to your organization's needs.
--->
+Ofrecemos cursos complementarios sobre cualquier aspecto fundamental, como Programación, Matemáticas, Estadística, Diseño Experimental, Método Científico, Flujos de Trabajo Reproducibles y cualquier otro concepto que pueda ser necesario para ponerse al día con una formación más avanzada. Estos pueden combinarse en cualquier proporción y orden, y adaptarse a las necesidades de equipos o individuos específicos.
 
+Los fundamentos se enseñan y adaptan en el contexto de los problemas del mundo real abordados por la organización o el equipo, ayudando a sentar las bases para el uso de métodos y diseños descritos en los cursos avanzados.

@@ -12,7 +12,15 @@ Las tarifas comienzan desde **100 EUR/hora**; <a href="https://iwlm0hx5bxx.typef
 
 Las principales áreas en las que ofrecemos nuestra experiencia son las siguientes:
 
-1. **<a id="data" style="scroll-margin-top:10vh;"><a href="#data">Inteligencia Artificial & Estrategia de Datos</a></a>**
+1. **<a id="statistics" style="scroll-margin-top:10vh;"><a href="#statistics">Automación, Aprendizaje Automático & Modelado Estadístico</a></a>**
+
+Si ya está inmerso en métodos cuantitativos, probablemente se ha enfrentado a elecciones de pruebas estadísticas para un análisis, métodos de aprendizaje automático para una aplicación, o más en general, con diferentes alternativas de cómo implementar un modelo estadístico.
+
+El campo de la estadística ya es grande y ha crecido exponencialmente con la explosión del uso del aprendizaje automático y la subsiguiente hiper del AI -- la buena noticia es que no necesita un doctorado en estadística o informática para beneficiarse de ello. Para eso estamos.
+
+Ya sea que sea un científico que requiere una entrada general de expertos en técnicas cuantitativas, o un profesional que avanza y necesita asistencia con una implementación específica, podemos apoyarlo en la elección, implementación y justificación del uso de sus métodos estadísticos.
+
+2. **<a id="data" style="scroll-margin-top:10vh;"><a href="#data">Inteligencia Artificial & Estrategia de Datos</a></a>**
 
 ¿Cuál es vuestra [Estrategia de Datos](https://hbr.org/2017/05/whats-your-data-strategy)? ¿Planea utilizar Inteligencia Artificial, Ciencia de Datos, Aprendizaje Estadístico, Aprendizaje Automático, _Deep Learning_ o _Big Data_ para alcanzar los objetivos de vuestra entidad?
 
@@ -30,7 +38,18 @@ Independientemente de vuestro ámbito y tamaño de vuestra empresa, departamento
 
 <img src="/images/graph.webp" style="display: block; margin: 0 auto; width: 40%;">
 
-2. **<a id="experiments" style="scroll-margin-top:10vh;"><a href="#experiments">Generación & gestión de datos</a></a>**
+3. **<a id="computing" style="scroll-margin-top:10vh;"><a href="#computing">Computación Científica & Matemática</a></a>**
+
+Para algunas instituciones, una implementación básica (pero sólida) será la forma más eficiente de alcanzar sus objetivos; para otras, es posible que se requieran herramientas de computación de alto rendimiento. La prueba, validación, benchmarking y optimización pueden surgir al final del proceso de implementación de un algoritmo; sin embargo, estas elecciones no deben venir a posteriori -- programarde manera reproducible es costoso, consume tiempo y es propenso a errores si no se hace bien. Es importante planificar con anticipación, pensar en estas decisiones y tomarlas de manera oportuna para un proyecto en su conjunto. Las opciones abundan:
+
+- ¿Qué lenguaje de programación es óptimo para mis necesidades?
+- ¿Necesito una aplicación de alto rendimiento, o una herramienta básica me servirá?
+- ¿Puedo utilizar herramientas y paquetes preexistentes, o debo implementar análisis desde cero?
+- ¿Qué _frameworks_ de trabajo e preexisteentes están disponibles; cuáles son los pros y los contras de cada opción?
+- ¿Cómo puedo mejorar mi _framework_? (GPU, paralelización, computación en la nube, optimización de código)
+
+
+4. **<a id="experiments" style="scroll-margin-top:10vh;"><a href="#experiments">Generación & gestión de datos</a></a>**
 
 No importa los datos que tengas, estos vienen de algún sistema y se generan de alguna manera; sin embargo, no todos los datos son creados iguales. El diseño experimental es la ciencia detrás de la ciencia; como sugiere el nombre, permite a los investigadores controlar cómo se ven sus conjuntos de datos.
 
@@ -40,20 +59,5 @@ Si ya tiene un flujo de datos que se utiliza en vuestra institución, también p
 
 <img src="/images/datacloud.webp" style="display: block; margin: 0 auto; width: 40%;">
 
-3. **<a id="statistics" style="scroll-margin-top:10vh;"><a href="#statistics">Modelado Estadístico</a></a>**
 
-Si ya está inmerso en métodos cuantitativos, probablemente se ha enfrentado a elecciones de pruebas estadísticas para un análisis, métodos de aprendizaje automático para una aplicación, o más en general, con diferentes alternativas de cómo implementar un modelo estadístico.
 
-El campo de la estadística ya es grande y ha crecido exponencialmente con la explosión del uso del aprendizaje automático y la subsiguiente hiper del AI - la buena noticia es que no necesita un doctorado en estadística o ciencias de la computadora para beneficiarse de esto, eso es para lo que estamos aquí.
-
-Ya sea que sea un científico que requiere una entrada general de expertos en técnicas cuantitativas, o un profesional que avanza y necesita asistencia con una implementación específica, podemos apoyarlo en la elección, implementación y justificación del uso de sus métodos estadísticos.
-
-4. **<a id="computing" style="scroll-margin-top:10vh;"><a href="#computing">Computación Científica & Matemática</a></a>**
-
-Para algunas instituciones, una implementación básica (pero sólida) será la forma más eficiente de alcanzar sus objetivos; para otras, es posible que se requieran herramientas de computación de alto rendimiento. La prueba, validación, benchmarking y optimización pueden surgir al final del proceso de implementación de un algoritmo; sin embargo, estas elecciones no deben venir a posteriori -- programarde manera reproducible es costoso, consume tiempo y es propenso a errores si no se hace bien. Es importante planificar con anticipación, pensar en estas decisiones y tomarlas de manera oportuna para un proyecto en su conjunto. Las opciones abundan:
-
-- ¿Qué lenguaje de programación es óptimo para mis necesidades?
-- ¿Necesito una aplicación de alto rendimiento, o una herramienta básica me servirá?
-- ¿Puedo utilizar herramientas y paquetes preexistentes, o debo implementar análisis desde cero?
-- ¿Qué _frameworks_ de trabajo e preexisteentes están disponibles; cuáles son los pros y los contras de cada opción?
-- ¿Cómo puedo mejorar mi _framework_? (GPU, paralelización, computación en la nube, optimización de código)

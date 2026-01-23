@@ -41,7 +41,7 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "files/*" $ do 
+    match "files/*" $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -66,7 +66,7 @@ main = hakyll $ do
         compile copyFileCompiler
 
     match (fromList ["science.md", "advisory.md", "training.md", "privacy.md" ]) $ do
-        --"legal.md", "data.md", "statistics.md", "about.md", "people.md", "experiments.md", "computing.md", "carpentries.md", "math.md", "thinking.md", "open.md", "visit.md"
+        --"legal.md", "data.md", "statistics.md", "people.md", "experiments.md", "computing.md", "carpentries.md", "math.md", "thinking.md", "open.md", "visit.md"
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -105,18 +105,18 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
-    match (fromList  ["index.html", "contact.html", "agora.html", "people.html", "faq.html", "404.html"] ) $ do
+    match (fromList  ["index.html", "contact.html", "agora.html", "about.html", "people.html", "faq.html", "404.html"] ) $ do
         route   idRoute
         compile copyFileCompiler
-    
+
     match "templates/*" $ compile templateBodyCompiler
 
-    match (fromList  ["es/index.html", "es/contact.html", "es/agora.html", "es/people.html", "es/faq.html", "es/404.html"] ) $ do
+    match (fromList  ["es/index.html", "es/contact.html", "es/agora.html", "es/about.html", "es/people.html", "es/faq.html", "es/404.html"] ) $ do
         route   idRoute
         compile copyFileCompiler
     match "es/templates/*" $ compile templateBodyCompiler
 
-    match (fromList  ["ca/index.html", "ca/contact.html", "ca/agora.html", "ca/people.html", "ca/faq.html", "ca/404.html"] ) $ do
+    match (fromList  ["ca/index.html", "ca/contact.html", "ca/agora.html", "ca/about.html", "ca/people.html", "ca/faq.html", "ca/404.html"] ) $ do
         route   idRoute
         compile copyFileCompiler
 

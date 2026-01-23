@@ -41,7 +41,7 @@ Los datos suministrados a AURORA COLLECTIVE a través del sitio web, así como c
 El código implementado por AURORA COLLECTIVE para este sitio web no recoge, por diseño, datos directamente de los usuarios que acceden a él y lo utilizan de forma pasiva. Cualquier información recogida es proporcionada directamente por los usuarios a través de formularios incrustados o calendarios, por ejemplo, o recogida de forma pasiva por terceros como la plataforma de alojamiento y otras herramientas o componentes esenciales del sitio web a los que AURORA COLLECTIVE puede o no tener acceso solicitándolo o interactuando con esas herramientas y componentes. Tanto si están incrustados en el sitio web como si están enlazados a páginas externas, los servicios de terceros son responsables de sus propias políticas de privacidad y protección de datos, y pueden incluir, pero no se limitan a servicios como: GitHub, GitHub Pages, Calendly, Substack, LinkedIn, Stack Exchange, Google Analytics, servicios similares, o cualquier herramienta incluida posteriormente.
 
 # 5. Menores
-Los menores no deben utilizar los servicios disponibles en el Sitio web sin la autorización previa de su madre, padre, tutor o representante legal, que será el único responsable y responsable de todas las acciones realizadas a través del Sitio web por los menores a su cargo
+Los menores no deben utilizar los servicios disponibles en el Sitio web sin la autorización previa de su madre, padre, tutor o representante legal, que serán los únicos responsables, y son responsables de todas las acciones realizadas a través del Sitio web por los menores a su cargo
 
 
 # 6. Medidas de seguridad
@@ -63,12 +63,12 @@ En caso de duda razonable por parte de AURORA COLLECTIVE sobre la identidad de l
 # 9. Información comercial y promocional
 Si algún usuario solicita y autoriza a AURORA COLLECTIVE INTELLIGENCE a enviarles comunicaciones comerciales y/o promocionales, los datos personales que proporcionen a través del formulario correspondiente, correo electrónico o cualquier canal estarán sujetos a tratamiento por parte de AURORA COLLECTIVE INTELLIGENCE con el fin de notificarles sobre cualquier contenido y servicio asociado.
 
-El usuario puede revocar su consentimiento en cualquier momento accediendo a la escritura en cualquiera de los canales de comunicación.
+El usuario puede revocar su consentimiento en cualquier momento escribiendo a cualquiera de los canales de comunicación.
 
 # 10. Consentimiento del usuario afectado
 El usuario declara que ha leído y aceptado explícitamente esta Política de Privacidad y Protección de Datos.
 
-El usuario se compromete a eximir y indemnizar a AURORA COLLECTIVE INTELLIGENCE por cualquier reclamación, multa o penalización que pueda incurrir como resultado del incumplimiento de la obligación descrita en este párrafo.
+El usuario se compromete a eximir e indemnizar a AURORA COLLECTIVE INTELLIGENCE por cualquier reclamación, multa o penalización que pueda incurrir como resultado del incumplimiento de la obligación descrita en este párrafo.
 
 # 11. Oposición o revocación del consentimiento para el tratamiento de datos
 Cualquier usuario puede revocar el consentimiento para el tratamiento de sus datos personales en cualquier momento. Puede comunicar su revocación a auroracoll@proton.me. AURORA COLLECTIVE INTELLIGENCE no procesará más datos de los usuarios que revocan su consentimiento; sin embargo, AURORA COLLECTIVE INTELLIGENCE puede estar obligada a mantener los datos para cumplir con las leyes y regulaciones vigentes.

@@ -21,15 +21,14 @@ El segon curs és independent de la majoria dels conceptes del primer i s'endins
 
 <img src="/images/multiplechoice.webp" style="display: block; margin: 0 auto; width: 40%;">
 
-<!--
-3. **<a id="carpentries">The Carpentries®</a>** (a.k.a. _Coding & Data Science Fundamentals_) -- 8-16 hours
 
-Coding has become a basic skill in today's world. For some it may seem like sorcery, or the tool of math whizzes -- nothing could be farther from the truth.
-Scientific thinking can be taught to anyone, and so can coding and data science.
+3. **<a id="carpentries" style="scroll-margin-top:10vh;"><a href="#carpentries">Blocs de Construcció, Bastides, Cablejat, Instal·lacions i Fusteria®</a></a>** (també conegut com _Fonaments de les Ciències Quantitatives i de Dades_) -- 8-16 hores
 
-Like learning math or a foreign language, it is much easier when there are reasons to be motivated; when there is a context and environments that allows learners to live and breathe the curriculum.
-We teach Coding and Data Science fully customized to the context of your organization; alternatively the courses can be taught following the official Software and Data [Carpentries](https://carpentries.org/workshops/)® standard curricula.
 
-The recommended formats take a lot of factors into consideration, and they can be tailored to your organization's needs.
--->
+Amb la ciència i la tecnologia tornant-se cada vegada més multidisciplinàries i ràpidament integrades en la majoria d'indústries, el llistó tècnic no només s'eleva, sinó que també esdevé més complex. Per tant, el desenvolupament d'habilitats ha de mantenir-se al dia amb una formació personalitzada que ompli aquests buits de coneixement. Això és cert no només per a investigadors i enginyers, sinó també per a usuaris de tecnologia i professionals que acaben interactuant amb ella, cosa que ara representa una gran part de tots els professionals.
 
+
+Oferim cursos complementaris sobre qualsevol aspecte fonamental, com Programació, Matemàtiques, Estadística, Disseny Experimental, Mètode Científic, Fluxos de Treball Reproducibles i qualsevol altre concepte que pugui ser necessari per posar-se al dia amb una formació més avançada. Aquests es poden combinar en qualsevol proporció i ordre, i adaptar-se a les necessitats d'equips o individus específics.
+
+
+Els fonaments s'ensenyen i s'adapten en el context dels problemes del món real abordats per l'organització o l'equip, ajudant a establir les bases per a l'ús de mètodes i dissenys descrits als cursos avançats.
