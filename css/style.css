@@ -84,7 +84,7 @@ body {
     align-items: center;
     text-align: center;
     color: white;
-    padding-top: 10vh; /* To account for the fixed navbar */
+    padding-top: 8vh; /* To account for the fixed navbar */
     box-sizing: border-box; /* Include padding in height calculation */
     background-size: cover;
     background-position: top center; /* Ensure the top part of the image is visible */
@@ -93,12 +93,12 @@ body {
 
 .index-hero {
     background-image:
-        linear-gradient(#122d47 0 10vh, rgba(0, 0, 0, 0) 10vh),
+        linear-gradient(#122d47 0 8vh, rgba(110, 62, 62, 0) 8vh),
         url("../images/Aurora.avif");
     background-size: cover;
-    background-position:
+    background-pobackgroundsition:
         top left,
-        center 10vh;
+        center 8vh;
     background-repeat: no-repeat; /* Prevent the background image from repeating */
 }
 
@@ -138,7 +138,7 @@ body {
     padding-top: 2rem; /* Add some space below the navbar */
     padding-bottom: 1rem; /* Add some space below the navbar */
     margin: 0;
-    font-size: 6vw; /* Adjust the value as needed */
+    font-size: clamp(2rem, 6vw, 4.5rem); /* Adjust the value as needed */
     max-width: 70%;
     text-align: center;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
@@ -148,7 +148,7 @@ body {
 }
 
 .hero-subheader {
-    font-size: 2vw; /* Adjust the value as needed */
+    font-size: clamp(1rem, 2vw, 1.5rem); /* Adjust the value as needed */
     max-width: 70%;
     text-align: center;
     font-family: "Monaco", monospace;
