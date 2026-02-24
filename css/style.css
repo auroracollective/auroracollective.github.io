@@ -96,7 +96,7 @@ body {
         linear-gradient(#122d47 0 8vh, rgba(110, 62, 62, 0) 8vh),
         url("../images/Aurora.avif");
     background-size: cover;
-    background-pobackgroundsition:
+    background-position:
         top left,
         center 8vh;
     background-repeat: no-repeat; /* Prevent the background image from repeating */
@@ -138,7 +138,7 @@ body {
     padding-top: 2rem; /* Add some space below the navbar */
     padding-bottom: 1rem; /* Add some space below the navbar */
     margin: 0;
-    font-size: clamp(2rem, 6vw, 4.5rem); /* Adjust the value as needed */
+    font-size: clamp(3rem, 6vw, 4.5rem); /* Adjust the value as needed */
     max-width: 70%;
     text-align: center;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
@@ -148,7 +148,7 @@ body {
 }
 
 .hero-subheader {
-    font-size: clamp(1rem, 2vw, 1.5rem); /* Adjust the value as needed */
+    font-size: clamp(0.5rem, 2vw, 1.5rem); /* Adjust the value as needed */
     max-width: 70%;
     text-align: center;
     font-family: "Monaco", monospace;
