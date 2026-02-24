@@ -138,7 +138,7 @@ body {
     padding-top: 2rem; /* Add some space below the navbar */
     padding-bottom: 1rem; /* Add some space below the navbar */
     margin: 0;
-    font-size: clamp(3rem, 6vw, 4.5rem); /* Adjust the value as needed */
+    font-size: clamp(3rem, 6vw, 4.5rem); 
     max-width: 70%;
     text-align: center;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
@@ -148,7 +148,7 @@ body {
 }
 
 .hero-subheader {
-    font-size: clamp(0.5rem, 2vw, 1.5rem); /* Adjust the value as needed */
+    font-size: clamp(0.5rem, 2vw, 1.5rem); 
     max-width: 70%;
     text-align: center;
     font-family: "Monaco", monospace;
@@ -555,21 +555,38 @@ body main a:hover,
     .hero-section {
         padding-top: 10vh; /* To account for the fixed navbar */
         margin-bottom: 0px; /* Reduce the margin for narrower widths */
-        background-position: center center; /* Move the background image further down */
     }
     .hero-header {
         padding-top: 0rem; /* Add some space below the navbar */
-        font-size: 4vw; /* Adjust the value as needed */
+        padding-bottom: 0.5rem;
+        margin: 0;
+        font-size: clamp(1.5rem, 8vw, 4.5rem); 
+        max-width: 90%;
+        /* margin-left: 0.2rem;
+        margin-right: 0.2rem; */
+    }
+
+    .hero-subheader {
+        font-size: clamp(1.0rem, 2vw, 2.0rem);
+        max-width: 90%;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .index-hero {
-        background-size: cover;
-        height: 50vh;
+        background-image:
+            linear-gradient(#122d47 0 20vh, rgba(110, 62, 62, 0) 20vh),
+            url("../images/Aurora.avif");
+        background-size: contain;
+        height: 60vh;
+        background-position: top left, center 20vh;
+        background-repeat: no-repeat;
     }
 
     .agora-hero {
-        background-size: cover;
-        height: 50h;
+        background-size: contain;
+        height: 60vh;
+        background-position: center 70%;
     }
 
     .footer {
