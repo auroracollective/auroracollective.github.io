@@ -131,7 +131,7 @@ body {
     font-weight: normal; /* Ensure normal font weight */
     color: #a9a9a9; /* Darker shade of gray */
     white-space: pre-line; /* Preserve whitespace for line breaks */
-    line-height: 1.5; /* Add more line spacing */
+    line-height: 1.5;
 }
 
 .hero-header {
@@ -144,7 +144,7 @@ body {
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
     font-weight: normal; /* Ensure normal font weight */
     color: #fffdd0;
-    line-height: 1; /* Add more line spacing */
+    line-height: 1.1;
 }
 
 .hero-subheader {
@@ -155,7 +155,7 @@ body {
     font-weight: normal; /* Ensure normal font weight */
     color: #dcdcdc;
     white-space: pre-line; /* Preserve whitespace for line breaks */
-    line-height: 1.5; /* Add more line spacing */
+    line-height: 1.5;
 }
 
 /* Simple text section styles */
@@ -178,7 +178,7 @@ body {
     font-size: 3rem;
     color: #122d47;
     white-space: pre-line; /* Preserve whitespace for line breaks */
-    line-height: 1.5; /* Add more line spacing */
+    line-height: 1.5;
 }
 
 .home-text h2 {
@@ -188,7 +188,7 @@ body {
     font-size: 1.5rem;
     color: royalblue;
     white-space: pre-line; /* Preserve whitespace for line breaks */
-    line-height: 1.5; /* Add more line spacing */
+    line-height: 1.5;
 }
 
 /* Main content styles */
@@ -558,7 +558,7 @@ body main a:hover,
     }
     .hero-header {
         padding-top: 0rem; /* Add some space below the navbar */
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.0rem;
         margin: 0;
         font-size: clamp(1.5rem, 8vw, 4.5rem); 
         max-width: 90%;
@@ -575,11 +575,11 @@ body main a:hover,
 
     .index-hero {
         background-image:
-            linear-gradient(#122d47 0 20vh, rgba(110, 62, 62, 0) 20vh),
+            linear-gradient(#122d47 0 28vh, rgba(110, 62, 62, 0) 28vh),
             url("../images/Aurora.avif");
         background-size: contain;
-        height: 60vh;
-        background-position: top left, center 20vh;
+        height: 70vh;
+        background-position: top left, center 28vh;
         background-repeat: no-repeat;
     }
 
