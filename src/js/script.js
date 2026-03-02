@@ -1,18 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
   const toggleButton = document.querySelector('.toggle-button');
-  const closeButton = document.querySelector('.close-button');
-  const mobileMenu = document.querySelector('.mobile-menu');
   const navbarLinks = document.querySelector('.navbar-links');
 
-  toggleButton.addEventListener('click', () => {
-    mobileMenu.classList.toggle('active');
-    navbarLinks.classList.toggle('active');
-  });
-
-  closeButton.addEventListener('click', () => {
-    mobileMenu.classList.remove('active');
-    navbarLinks.classList.remove('active');
-  });
+  if (toggleButton) {
+    toggleButton.addEventListener('click', () => {
+      if (navbarLinks) navbarLinks.classList.toggle('active');
+      toggleButton.classList.toggle('active');
+    });
+  }
 
   showSlide(currentSlide);
   setInterval(nextSlide, 3000); // Change slide every 3 seconds
