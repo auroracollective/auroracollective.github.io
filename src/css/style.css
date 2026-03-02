@@ -523,10 +523,11 @@ body main a:hover,
 /* Media query for narrower resolutions */
 @media (max-width: 768px) {
     .navbar {
-        height: auto;
-        min-height: 8vh;
-        flex-wrap: wrap;
-        padding-bottom: 1rem;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1001; /* Ensure navbar is above the mobile menu */
     }
 
     .toggle-button {
@@ -536,7 +537,7 @@ body main a:hover,
         justify-content: space-between;
         width: 24px;
         height: 18px;
-        z-index: 10;
+        z-index: 1002; /* Ensure button is above everything */
         margin-right: 1rem;
     }
 
@@ -564,16 +565,47 @@ body main a:hover,
 
     .navbar-links {
         display: none;
-        width: 100%;
-        flex-direction: column;
-        gap: 1rem;
-        margin-top: 1rem;
-        padding-left: 0;
-        margin-right: 0;
     }
 
-    .navbar-links.active {
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #122d47;
+        z-index: 1000;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10vh;
+        overflow-y: auto;
+    }
+
+    .mobile-menu.active {
         display: flex;
+    }
+
+    .mobile-navbar-links {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: "Monaco", monospace;
+    }
+
+    .mobile-navbar-links li {
+        margin: 20px 0;
+    }
+
+    .mobile-navbar-links a {
+        color: #f5f5dc;
+        text-decoration: none;
+    }
+
+    .mobile-navbar-links a:hover {
+        color: #fcf55f;
     }
 
     .hero-section {

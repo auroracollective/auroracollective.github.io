@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
   const toggleButton = document.querySelector('.toggle-button');
   const navbarLinks = document.querySelector('.navbar-links');
+  const mobileMenu = document.querySelector('.mobile-menu');
 
   if (toggleButton) {
     toggleButton.addEventListener('click', () => {
-      if (navbarLinks) navbarLinks.classList.toggle('active');
+      if (mobileMenu) mobileMenu.classList.toggle('active');
       toggleButton.classList.toggle('active');
     });
   }
