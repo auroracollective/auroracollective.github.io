@@ -479,18 +479,18 @@ body main a:hover,
     list-style: none;
     padding: 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Monaco", monospace;
 }
 
 .mobile-navbar-links li {
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .mobile-navbar-links a {
     color: #f5f5dc;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .mobile-navbar-links a:hover {
@@ -498,21 +498,36 @@ body main a:hover,
 }
 
 .mobile-navbar-links img {
-    max-width: 100px; /* Set a maximum width for the logo */
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px 0; /* Add some margin around the logo */
+    max-width: 110px; /* Slightly bigger logo */
+    height: auto;
+    margin: 10px 0; /* Reduced margin */
 }
 
 .mobile-menu .language-switch {
     display: flex;
+    flex-direction: row; /* Align icon and buttons horizontally */
     justify-content: center;
     align-items: center;
-    margin: 20px 0; /* Add some margin around the language switch */
+    margin: 20px 0 40px 0;
+    gap: 15px; /* Spacing between icon and buttons container */
 }
 
 .mobile-menu .language-switch .dropdown-content {
-    left: 50%;
-    transform: translateX(-50%);
+    position: static;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    box-shadow: none;
+    gap: 10px;
+    transform: none;
+    margin-top: 0; /* Removed top margin to align with icon */
+}
+
+.mobile-menu .language-switch .dropdown-content a {
+    padding: 5px 10px;
+    border: 1px solid #fcf55f;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
 .toggle-button {
