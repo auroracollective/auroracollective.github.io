@@ -1,557 +1,247 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/style.css" />
-        <title>Aurora Collective Intelligence</title>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-        <script
-            id="MathJax-script"
-            async
-            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-        ></script>
-        <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
-        <script
-            defer
-            src="https://cloud.umami.is/script.js"
-            data-website-id="6c286043-dfa2-48c3-ae4b-3bb800af4175"
-        ></script>
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="navbar-logo">
-                <a
-                    href="/index.html"
-                    class="current-page"
-                    style="
-                        text-decoration: none;
-                        font-size: 1.8rem;
-                        margin-left: 1rem;
-                        margin-right: 0.5rem;
-                    "
-                    >Aurora</a
-                >
-                <a href="/index.html"
-                    ><img src="../images/logo2.png" alt="Logo"
-                /></a>
-            </div>
-            <div class="toggle-button">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-            <ul class="navbar-links">
-                <li><a href="/es/science.html">Ciencia</a></li>
-                <li><a href="/es/advisory.html">Consultoría</a></li>
-                <li><a href="/es/training.html">Formación</a></li>
-                <li><a href="/es/about.html">Nosotros</a></li>
-                <li><a href="/es/agora.html">Agora</a></li>
-                <li>
-                    <div class="book-free-dropdown">
-                        <a href="/es/contact.html">Contacto</a>
-                        <div class="dropdown-content">
-                            <a
-                                href="https://calendly.com/aurora-collective/30min"
-                                >programar reunión</a
-                            >
-                            <a
-                                href="https://iwlm0hx5bxx.typeform.com/to/ixHOFO97"
-                                >demo gratis</a
-                            >
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="language-switch">
-                        <img
-                            src="../images/globe.png"
-                            alt="Castellano"
-                            class="language-icon"
-                        />
-                        <div class="dropdown-content">
-                            <a href="/people.html">en</a>
-                            <a href="/ca/people.html">ca</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-        <div class="mobile-menu">
-            <div class="close-button">&times;</div>
-            <ul class="mobile-navbar-links">
-                <li><a href="/es/science.html">Ciencia</a></li>
-                <li><a href="/es/advisory.html">Consultoría</a></li>
-                <li><a href="/es/training.html">Formación</a></li>
-                <li><a href="/es/about.html">Nosotros</a></li>
-                <li><a href="/es/agora.html">Agora</a></li>
-                <li>
-                    <div class="book-free-dropdown">
-                        <a href="/es/contact.html">Contacto</a>
-                        <div class="dropdown-content">
-                            <a
-                                href="https://calendly.com/aurora-collective/30min"
-                                >meeting</a
-                            >
-                            <a
-                                href="https://iwlm0hx5bxx.typeform.com/to/ixHOFO97"
-                                >demo</a
-                            >
-                        </div>
-                    </div>
-                </li>
-                <li><img src="../images/logo.png" alt="Logo" /></li>
-                <li>
-                    <div class="language-switch">
-                        <img
-                            style="width: 1rem; height: 1rem"
-                            src="../images/globe.png"
-                            alt="English"
-                            class="language-icon"
-                        />
-                        <div class="dropdown-content">
-                            <a href="/es/index.html">es</a>
-                            <a href="/index.html">ca</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Aurora Collective Intelligence</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="6c286043-dfa2-48c3-ae4b-3bb800af4175"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <a href="/index.html" class="current-page" style="text-decoration: none; font-size: 1.8rem; margin-left: 1.0rem; margin-right: 0.5rem;">Aurora</a>
+      <a href="/index.html"><img src="../images/logo2.png" alt="Logo"></a>
+    </div>
+    <div class="toggle-button">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul class="navbar-links">
+      <li><a href="/science.html">Science</a></li>
+      <li><a href="/advisory.html">Consulting</a></li>
+      <li><a href="/training.html">Training</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/agora.html">Agora</a></li>
+      <li><div class="language-switch">
+        <img src="../images/globe.png" alt="English" class="language-icon">
+        <div class="dropdown-content">
+          <a href="/es/index.html">es</a>
+          <a href="/404.html">ca</a>
         </div>
-        <style>
-            .hero-section.index-hero {
-                height: 50vh !important; /* or any value you prefer */
-                background-position: top center;
-                background-size: cover;
-            }
-        </style>
-        <div class="hero-section index-hero">
-            <div class="hero-header">
-                Las personas detrás del colectivo están en el centro de todo
-            </div>
+      </div></li>
+    </ul>
+  </nav>
+  <div class="mobile-menu">
+    <div class="close-button">&times;</div>
+    <ul class="mobile-navbar-links">
+      <li><a href="/science.html">Science</a></li>
+      <li><a href="/advisory.html">Consulting</a></li>
+      <li><a href="/training.html">Training</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/agora.html">Agora</a></li>
+      <li><img src="../images/logo.png" alt="Logo"></li>
+      <li><div class="language-switch">
+        <img style="width:1rem; height:1rem" src="../images/globe.png" alt="English" class="language-icon">
+        <div class="dropdown-content">
+          <a href="/es/index.html">es</a>
+          <a href="/index.html">ca</a>
         </div>
-        <p></p>
+      </div></li>
+    </ul>
+  </div>
+  <style>
+.hero-section.index-hero {
+  height: 50vh !important; /* or any value you prefer */
+  background-position: top center;
+  background-size: cover;
+}
+</style>
+  <div class="hero-section index-hero">
+    <div class="hero-header">Las personas detráslas perso del colectivo están en el centro de todo</div>
+  </div>
+<p></p>
 
-        <div style="display: grid; grid-template-columns: 5vw 1fr 5vw">
-            <div></div>
-            <div>
-                <a id="caetano" style="scroll-margin-top: 10vh"
-                    ><a
-                        href="#caetano"
-                        style="
-                            font-size: 1.8rem;
-                            color: royalblue;
-                            text-decoration: none;
-                        "
-                        >Caetano Souto Maior</a
-                    ></a
-                >
-            </div>
-            <div></div>
-        </div>
+<div style="display: grid; grid-template-columns: 5vw  1fr 5vw;">
+  <div></div>
+  <div><a id="caetano" style="scroll-margin-top:10vh;"><a href="#caetano" style="font-size:1.8rem; color: royalblue; text-decoration: none">Caetano Souto Maior</a></a></div>
+  <div></div>
+</div>
 
-        <!-- Caetano's profile -->
-        <div style="display: grid; grid-template-columns: 5vw 20vw 1fr 5vw">
-            <div></div>
-            <div
-                style="
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    margin: 2px;
-                "
-            >
-                <img
-                    src="../images/caesoma.png"
-                    alt="caesoma"
-                    style="width: 20vw; display: block"
-                />
-                <ul
-                    style="
-                        display: flex;
-                        flex-direction: row;
-                        list-style: none;
-                        padding: 0;
-                        margin: 0.5em 0 0 0;
-                    "
-                >
-                    <li style="margin-right: 0.5em">
-                        <a href="https://orcid.org/0000-0002-0271-2576">
-                            <img
-                                src="../images/icons/id-dark.png"
-                                alt="orcid"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                    <li style="margin-right: 0.5em">
-                        <a href="https://github.com/caesoma">
-                            <img
-                                src="../images/icons/gh-dark.png"
-                                alt="github"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                    <li style="margin-right: 0.5em">
-                        <a
-                            href="https://www.linkedin.com/in/caetanosoutomaior/"
-                        >
-                            <img
-                                src="../images/icons/li-dark.png"
-                                alt="linkedin"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://caesoma.substack.com/">
-                            <img
-                                src="../images/icons/ss-dark.png"
-                                alt="substack"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div
-                style="
-                    font-family: &quot;Verdana&quot;, sans-serif;
-                    font-size: 14pt;
-                    margin-left: 1rem;
-                "
-            >
-                <p>
-                    Caetano tiene grados avanzados en diferentes áreas de las
-                    ciencias exactas y naturales, con doctorado en biología
-                    Computacional, y varios años de experiencia postdoctoral
-                    multidisciplinaria en intersecciones de áreas del
-                    conocimiento que pocas personas están verdaderamente
-                    calificadas para evaluar. Tiene amplia experiencia enseñando
-                    asignaturas universitarias en matemáticas, ciencias
-                    multidisciplinarias, varios seminarios y talleres, además de
-                    ser instructor certificado de Software y Data Carpentries.
-                </p>
-                <p>
-                    Caetano es también el encargado de la difícil tarea de
-                    escribir la descripción de todos (la suya propia incluso) en
-                    tercera persona, y justificar sus calificaciones sin
-                    exagerarlas; no obstante, no duda al exponer los logros
-                    merecidos de sus compañeros de Aurora Collective.
-                </p>
-            </div>
-            <div></div>
-        </div>
-        <p></p>
+<!-- Caetano's profile -->
+<div style="display: grid; grid-template-columns: 5vw 20vw 1fr 5vw;">
+  <div></div>
+  <div style="display: flex; flex-direction: column; align-items: center; margin:2px">
+    <img src="../images/caesoma.png" alt="caesoma" style="width: 20vw; display: block;">
+    <ul style="display: flex; flex-direction: row; list-style: none; padding: 0; margin: 0.5em 0 0 0;">
+      <li style="margin-right: 0.5em;">
+        <a href="https://orcid.org/0000-0002-0271-2576">
+          <img src="../images/icons/id-dark.png" alt="orcid" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+      <li style="margin-right: 0.5em;">
+        <a href="https://github.com/caesoma">
+          <img src="../images/icons/gh-dark.png" alt="github" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+      <li style="margin-right: 0.5em;">
+        <a href="https://www.linkedin.com/in/caetanosoutomaior/">
+          <img src="../images/icons/li-dark.png" alt="linkedin" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+      <li>
+        <a href="https://caesoma.substack.com/">
+          <img src="../images/icons/ss-dark.png" alt="substack" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div style="font-family: 'Verdana', sans-serif; font-size: 14pt; margin-left: 1rem;">
+        <p>
+        Caetano tiene grados avanzados en diferentes áreas de las ciencias exactas y naturales, con doctorado en biología Computacional, y varios años de experiencia postdoctoral multidisciplinaria en intersecciones de áreas del conocimiento que pocas personas están verdaderamente calificadas para evaluar. Tiene amplia experiencia enseñando asignaturas universitarias en matemáticas, ciencias multidisciplinarias, varios seminarios y talleres, además de ser instructor certificado de Software y Data Carpentries.
+        </p>
+        <p>
+        Caetano es también el encargado de la difícil tarea de escribir la descripción de todos (la suya propia incluso) en tercera persona, y justificar sus calificaciones sin exagerarlas; no obstante, no duda al exponer los logros merecidos de sus compañeros de Aurora Collective.        
+        </p>
+  </div>
+  <div></div>
+</div>
+<p></p>
 
-        <div style="display: grid; grid-template-columns: 5vw 1fr 5vw">
-            <div></div>
-            <div>
-                <a id="ana" style="scroll-margin-top: 10vh"
-                    ><a
-                        href="#ana"
-                        style="
-                            font-size: 1.8rem;
-                            color: royalblue;
-                            text-decoration: none;
-                        "
-                        >Ana Ribeiro</a
-                    ></a
-                >
-            </div>
-            <div></div>
-        </div>
+<div style="display: grid; grid-template-columns: 5vw  1fr 5vw;">
+  <div></div>
+  <div><a id="ana" style="scroll-margin-top:10vh;"><a href="#ana" style="font-size:1.8rem; color: royalblue; text-decoration: none">Ana Ribeiro</a></a></div>
+  <div></div>
+</div>
 
-        <div style="display: grid; grid-template-columns: 5vw 20vw 1fr 5vw">
-            <div></div>
-            <div
-                style="
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    margin: 2px;
-                "
-            >
-                <img
-                    src="../images/anamarib.png"
-                    alt="anamarib"
-                    style="width: 20vw; display: block"
-                />
-                <ul
-                    style="
-                        display: flex;
-                        flex-direction: row;
-                        list-style: none;
-                        padding: 0;
-                        margin: 0.5em 0 0 0;
-                    "
-                >
-                    <li style="margin-right: 0.5em">
-                        <a
-                            href="https://www.linkedin.com/in/ana-m-ribeiro-ph-d-44874685/"
-                        >
-                            <img
-                                src="../images/icons/li-dark.png"
-                                alt="linkedin"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                    <li style="margin-right: 0.5em">
-                        <a
-                            href="https://www.scopus.com/authid/detail.uri?authorId=58434346300"
-                        >
-                            <img
-                                src="../images/icons/sc-dark.png"
-                                alt="scopus"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                    <!-- <li style="margin-right: 0.5em;">
+<div style="display: grid; grid-template-columns: 5vw 20vw 1fr 5vw;">
+  <div></div>
+  <div style="display: flex; flex-direction: column; align-items: center; margin:2px">
+    <img src="../images/anamarib.png" alt="anamarib" style="width: 20vw; display: block;">
+    <ul style="display: flex; flex-direction: row; list-style: none; padding: 0; margin: 0.5em 0 0 0;">
+      <li style="margin-right: 0.5em;">
+        <a href="https://www.linkedin.com/in/ana-m-ribeiro-ph-d-44874685/">
+          <img src="../images/icons/li-dark.png" alt="linkedin" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+     <li style="margin-right: 0.5em;">
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=58434346300">
+          <img src="../images/icons/sc-dark.png" alt="scopus" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+      <!-- <li style="margin-right: 0.5em;">
         <a href="https://github.com/anamarib">
           <img src="../images/icons/gh-dark.png" alt="github" style="width:4vw;height:4vw;border:0;">
         </a>
       </li> -->
-                    <li>
-                        <a href="#ana">
-                            <img
-                                src="../images/icons/ss-dark.png"
-                                alt="substack"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div
-                style="
-                    font-family: &quot;Verdana&quot;, sans-serif;
-                    font-size: 14pt;
-                    margin-left: 1rem;
-                "
-            >
-                <p>
-                    Ana tiene un Ph.D. en Inmunología con formación postdoctoral
-                    en metabolismo de hemo. También cuenta con varios años de
-                    experiencia en atracción científica y desarrollo
-                    profesional. Ana ha desarrollado y orientado a científicos
-                    directamente, ha impartido varios cursos, talleres,
-                    programas de verano, además de apoyar esfuerzos
-                    institucionales, interinstitucionales y
-                    extra-institucionales para mejorar los entornos de
-                    investigación científica en particular y los espacios de
-                    conocimiento en general.
-                </p>
-                <p>
-                    Ana ha estado utilizando esta combinación para aprender
-                    sobre lo que es importante para el crecimiento de los
-                    profesionales, y para guiarlos a través de las muchas rutas
-                    posibles que conducen a sus objetivos individuales y
-                    organizacionales.
-                </p>
-            </div>
-            <div></div>
-        </div>
-        <p></p>
-        <p></p>
+      <li>
+        <a href="#ana">
+          <img src="../images/icons/ss-dark.png" alt="substack" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div style="font-family: 'Verdana', sans-serif; font-size: 14pt; margin-left: 1rem;">
+      <p>
+      Ana tiene un Ph.D. en Inmunología con formación postdoctoral en metabolismo de hemo. También cuenta con varios años de experiencia en atracción científica y desarrollo profesional.
+      Ana ha desarrollado y orientado a científicos directamente, ha impartido varios cursos, talleres, programas de verano, además de apoyar esfuerzos institucionales, interinstitucionales y extra-institucionales para mejorar los entornos de investigación científica en particular y los espacios de conocimiento en general.
+      </p>
+      <p>
+      Ana ha estado utilizando esta combinación para aprender sobre lo que es importante para el crecimiento de los profesionales, y para guiarlos a través de las muchas rutas posibles que conducen a sus objetivos individuales y organizacionales.
+      </p>
+  </div>
+  <div></div>
+</div>
+<p></p>
+<p></p>
 
-        <div style="display: grid; grid-template-columns: 5vw 1fr 5vw">
-            <div></div>
-            <div>
-                <a id="daniel" style="scroll-margin-top: 10vh"
-                    ><a
-                        href="#daniel"
-                        style="
-                            font-size: 1.8rem;
-                            color: royalblue;
-                            text-decoration: none;
-                        "
-                        >Daniel Damineli</a
-                    ></a
-                >
-            </div>
-            <div></div>
-        </div>
+<div style="display: grid; grid-template-columns: 5vw  1fr 5vw;">
+  <div></div>
+  <div><a id="daniel" style="scroll-margin-top:10vh;"><a href="#daniel" style="font-size:1.8rem; color: royalblue; text-decoration: none">Daniel Damineli</a></a></div>
+  <div></div>
+</div>
 
-        <div style="display: grid; grid-template-columns: 5vw 20vw 1fr 5vw">
-            <div></div>
-            <div
-                style="
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    margin: 2px;
-                "
-            >
-                <img
-                    src="../images/danmineli.png"
-                    alt="danmineli"
-                    style="width: 20vw; display: block"
-                />
-                <ul
-                    style="
-                        display: flex;
-                        flex-direction: row;
-                        list-style: none;
-                        padding: 0;
-                        margin: 0.5em 0 0 0;
-                    "
-                >
-                    <li style="margin-right: 0.5em">
-                        <a href="https://orcid.org/0000-0002-9911-2891">
-                            <img
-                                src="../images/icons/id-dark.png"
-                                alt="orcid"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                    <li style="margin-right: 0.5em">
-                        <a href="https://github.com/damineli/">
-                            <img
-                                src="../images/icons/gh-dark.png"
-                                alt="github"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                    <li style="margin-right: 0.5em">
-                        <a
-                            href="https://www.linkedin.com/in/daniel-damineli-16744215"
-                        >
-                            <img
-                                src="../images/icons/li-dark.png"
-                                alt="linkedin"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#daniel">
-                            <img
-                                src="../images/icons/ss-dark.png"
-                                alt="substack"
-                                style="width: 4vw; height: 4vw; border: 0"
-                            />
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div
-                style="
-                    font-family: &quot;Verdana&quot;, sans-serif;
-                    font-size: 14pt;
-                    margin-left: 1rem;
-                "
-            >
-                <p>
-                    Daniel tiene títulos avanzados en biología vegetal, un
-                    doctorado en biología computacional y una amplia experiencia
-                    postdoctoral en instituciones de renombre mundial. Además de
-                    sus logros académicos y métricas como el número de citas, el
-                    número de estudiantes de pregrado enseñados, índices de
-                    publicación, posiciones como revisor de revistas, que suelen
-                    contarse por cientos o miles, Daniel es alguien capaz de
-                    investigar en temas tan diversos como sistemas de estrellas
-                    binarias, tubos de polen, visualización/presentación
-                    avanzada de datos y CHUKNORRIS.
-                </p>
-                <p>
-                    Daniel lo hace todo: formular hipótesis, desarrollar
-                    modelos matemáticos, analizar datos, presentar visuales que
-                    adornan las portadas de las revistas científicas, andar en
-                    monociclo y tocar la trompeta -- aunque no siempre al mismo
-                    tiempo.
-                </p>
-            </div>
-            <div></div>
-        </div>
-        <p></p>
-        <footer class="footer">
-            <div class="footer-left">
-                <h2>Aurora</h2>
-                <img src="../images/logo.png" alt="Logo" />
-            </div>
-            <div class="footer-right">
-                <div class="footer-column">
-                    <h3>Servicios</h3>
-                    <ul>
-                        <li><a href="/es/science.html">Investigación Científica</a></li>
-                        <li>
-                            <a href="/es/advisory.html">Asesoría y Consultoría</a>
-                        </li>
-                        <li>
-                            <a href="/es/training.html">Formación y Desarrollo</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Obtener Ayuda</h3>
-                    <ul>
-                        <li><a href="/es/about.html">Sobre Nosotros</a></li>
-                        <li><a href="/faq.html">FAQ</a></li>
-                        <li>
-                            <a
-                                href="https://calendly.com/aurora-collective/30min"
-                                target="_blank"
-                                >Reserva una Cita Gratis</a
-                            >
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Social</h3>
-                    <ul>
-                        <li>
-                            <a
-                                href="https://auroracollective.substack.com/"
-                                target="_blank"
-                                >Blog</a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                href="https://auroracollective.substack.com/"
-                                target="_blank"
-                                ><img
-                                    src="../images/icons/ss.png"
-                                    alt="Substack"
-                            /></a>
-                            <a
-                                href="https://www.linkedin.com/company/aurora-collective-intelligence"
-                                target="_blank"
-                                ><img
-                                    src="../images/icons/li.png"
-                                    alt="LinkedIn"
-                            /></a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.youtube.com/@AuroraCollectiveIntelligence"
-                                ><img
-                                    src="../images/icons/yt.png"
-                                    alt="YouTube"
-                            /></a>
-                            <a href="https://www.meetup.com/stayrelevant/"
-                                ><img src="../images/icons/mu.png" alt="Meetup"
-                            /></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-license">
-                Esta página está licenciada bajo
-                <a href="https://auroracollective.github.io/LICENSE.md"
-                    >GNU Affero General Public License version 3</a
-                >
-                <br />
-                Consulta nuestra
-                <a href="https://auroracollective.github.io/es/privacy.html"
-                    >Política de Privacidad y Protección de Datos</a
-                >
-            </div>
-        </footer>
-        <script src="js/script.js"></script>
-    </body>
+<div style="display: grid; grid-template-columns: 5vw 20vw 1fr 5vw;">
+  <div></div>
+  <div style="display: flex; flex-direction: column; align-items: center; margin:2px">
+    <img src="../images/danmineli.png" alt="danmineli" style="width: 20vw; display: block;">
+    <ul style="display: flex; flex-direction: row; list-style: none; padding: 0; margin: 0.5em 0 0 0;">
+      <li style="margin-right: 0.5em;">
+        <a href="https://orcid.org/0000-0002-9911-2891">
+          <img src="../images/icons/id-dark.png" alt="orcid" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+      <li style="margin-right: 0.5em;">
+        <a href="https://github.com/damineli/">
+          <img src="../images/icons/gh-dark.png" alt="github" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+      <li style="margin-right: 0.5em;">
+        <a href="https://www.linkedin.com/in/daniel-damineli-16744215">
+          <img src="../images/icons/li-dark.png" alt="linkedin" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+      <li>
+        <a href="#daniel">
+          <img src="../images/icons/ss-dark.png" alt="substack" style="width:4vw;height:4vw;border:0;">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div style="font-family: 'Verdana', sans-serif; font-size: 14pt; margin-left: 1rem;">
+      <p>
+      Daniel tiene títulos avanzados en biología vegetal, un doctorado en biología computacional y una amplia experiencia postdoctoral en instituciones de renombre mundial.
+      Además de sus logros académicos y métricas como el número de citas, el número de estudiantes de pregrado enseñados, índices de publicación, posiciones como revisor de revistas, que suelen contarse por cientos o miles, Daniel es alguien capaz de investigar en temas tan diversos como sistemas de estrellas binarias, tubos de polen, visualización/presentación avanzada de datos y CHUKNORRIS.
+      </p>
+      <p>
+      Daniel lo hace todo todo: formular hipótesis, desarrollar modelos matemáticos, analizar datos, presentar visuales que adornan las portadas de las revistas científicas, andar en monociclo y tocar la trompeta -- aunque no siempre al mismo tiempo.
+      </p>
+  </div>
+  <div></div>
+</div>
+<p></p>
+  <footer class="footer">
+    <div class="footer-left">
+      <h2>Aurora</h2>
+      <img src="../images/logo.png" alt="Logo">
+    </div>
+    <div class="footer-right">
+      <div class="footer-column">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="/science.html">Scientific Research</a></li>
+          <li><a href="/advisory.html">Advisory & Consulting</a></li>
+          <li><a href="/training.html">Teaching & Training</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Get Help</h3>
+        <ul>
+          <li><a href="/contact.html">Contact Us</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="https://calendly.com/aurora-collective/30min" target="_blank">Book a free meeting</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Social</h3>
+        <ul>
+          <li><a href="https://auroracollective.substack.com/"  target="_blank">Blog</a></li>
+          <li><a href="https://auroracollective.substack.com/"  target="_blank"><img src="../images/icons/ss.png" alt="Substack"></a>
+              <a href="https://www.linkedin.com/company/aurora-collective-intelligence"><img src="../images/icons/li.png" alt="LinkedIn"></a></li>
+          <li><a href="https://github.com/auroracollective"><img src="../images/icons/gh.png" alt="GitHub"></a>
+              <a href="https://www.meetup.com/stayrelevant/"><img src="../images/icons/mu.png" alt="Meetup"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-license">
+      This page is licensed under <a href="https://auroracollective.github.io/LICENSE.md">GNU Affero General Public License version 3</a> <br> 
+      Read our <a href="https://auroracollective.github.io/privacy.html">Privacy and Data Protection Policy</a> 
+    </div>
+  </footer>
+<script src="js/script.js"></script>
+</body>
 </html>
