@@ -1,4 +1,3 @@
-/* Reset default margin and padding */
 html,
 body {
     margin: 0;
@@ -13,7 +12,7 @@ body {
     line-height: 1.5;
     font-family:
         "Big Caslon", "Book Antiqua", "Palatino Linotype", serif; /* Garamond, "Hoefler Text" */
-    background-color: #eae3c9; /* Set the background color to white */
+    background-color: #eae3c9; 
 }
 
 /* General styles for the navbar */
@@ -29,7 +28,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    font-family: "Monaco", monospace; /* Apply monospace font to the navbar */
+    font-family: "Monaco", monospace;
 }
 
 .navbar-logo {
@@ -72,34 +71,34 @@ body {
 }
 
 .current-page {
-    color: #fcf55f !important; /* Highlight the current page link */
+    color: #fcf55f !important;
 }
 
 /* Hero section styles */
 .hero-section {
-    height: 140vh; /* Make the hero section taller than the viewport height */
+    height: 140vh; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Align items to the top */
     align-items: center;
     text-align: center;
     color: white;
-    padding-top: 10vh; /* To account for the fixed navbar */
+    padding-top: 8vh; /* To account for the fixed navbar */
     box-sizing: border-box; /* Include padding in height calculation */
     background-size: cover;
     background-position: top center; /* Ensure the top part of the image is visible */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-repeat: no-repeat;
 }
 
 .index-hero {
     background-image:
-        linear-gradient(#122d47 0 10vh, rgba(0, 0, 0, 0) 10vh),
+        linear-gradient(#122d47 0 8vh, rgba(110, 62, 62, 0) 8vh),
         url("../images/Aurora.avif");
     background-size: cover;
     background-position:
         top left,
-        center 10vh;
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
+        center 8vh;
+    background-repeat: no-repeat;
 }
 
 .agora-hero {
@@ -110,100 +109,100 @@ body {
     background-position:
         top left,
         center 10vh;
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    background-color: #122d47; /* Add a background color to fill empty space */
+    background-repeat: no-repeat;
+    background-color: #122d47;
 }
 
 .hero-section h1 {
-    font-size: 3rem; /* Make the title larger */
+    font-size: 3rem;
     margin: 0;
     padding-top: 2rem; /* Add some space below the navbar */
     font-family:
         "Big Caslon", "Book Antiqua", "Palatino Linotype", serif; /* Garamond, "Hoefler Text" */
-    font-weight: normal; /* Ensure normal font weight */
-    color: #f5f5dc; /* Light beige close to white */
+    font-weight: normal;
+    color: #f5f5dc;
 }
 
 .hero-section h2 {
     font-size: 1.5rem;
     margin: 0.5rem 0 0;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
-    font-weight: normal; /* Ensure normal font weight */
-    color: #a9a9a9; /* Darker shade of gray */
-    white-space: pre-line; /* Preserve whitespace for line breaks */
-    line-height: 1.5; /* Add more line spacing */
+    font-weight: normal;
+    color: #a9a9a9;
+    white-space: pre-line;
+    line-height: 1.5;
 }
 
 .hero-header {
-    padding-top: 2rem; /* Add some space below the navbar */
-    padding-bottom: 1rem; /* Add some space below the navbar */
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     margin: 0;
-    font-size: 6vw; /* Adjust the value as needed */
+    font-size: clamp(3rem, 6vw, 4.5rem); 
     max-width: 70%;
     text-align: center;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
-    font-weight: normal; /* Ensure normal font weight */
+    font-weight: normal;
     color: #fffdd0;
-    line-height: 1; /* Add more line spacing */
+    line-height: 1.1;
 }
 
 .hero-subheader {
-    font-size: 2vw; /* Adjust the value as needed */
+    font-size: clamp(0.5rem, 2vw, 1.5rem); 
     max-width: 70%;
     text-align: center;
     font-family: "Monaco", monospace;
-    font-weight: normal; /* Ensure normal font weight */
+    font-weight: normal;
     color: #dcdcdc;
     white-space: pre-line; /* Preserve whitespace for line breaks */
-    line-height: 1.5; /* Add more line spacing */
+    line-height: 1.5;
 }
 
 /* Simple text section styles */
 .home-text {
-    text-align: justify; /* Justify the text */
+    text-align: justify;
     padding: 2rem;
     font-family: "Verdana", sans-serif;
     color: #333;
     margin-top: 2vh; /* Add space below the navbar */
-    width: 80%; /* Set width to 70% of the page */
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-size: 14pt;
-    line-height: 2; /* Ensure 2.0 line spacing */
+    line-height: 2;
 }
 
 .home-text h1 {
-    text-align: center; /* Center the title */
+    text-align: center;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
     font-size: 3rem;
     color: #122d47;
-    white-space: pre-line; /* Preserve whitespace for line breaks */
-    line-height: 1.5; /* Add more line spacing */
+    white-space: pre-line;
+    line-height: 1.5;
 }
 
 .home-text h2 {
-    text-align: center; /* Center the title */
+    text-align: center;
     margin: 0.5rem 0 0;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
     font-size: 1.5rem;
     color: royalblue;
-    white-space: pre-line; /* Preserve whitespace for line breaks */
-    line-height: 1.5; /* Add more line spacing */
+    white-space: pre-line;
+    line-height: 1.5;
 }
 
 /* Main content styles */
 body main {
-    padding-top: 10vh; /* Add space below the navbar */
-    width: 80%; /* Set width to 70% of the page */
+    padding-top: 10vh;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    line-height: 2; /* Ensure 2.0 line spacing */
+    line-height: 2;
     font-family: "Verdana", sans-serif;
     font-size: 13pt;
 }
 
 body main h1 {
-    text-align: center; /* Center the title */
+    text-align: center;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", serif;
     font-size: 3rem;
     color: #333;
@@ -231,7 +230,7 @@ body main a:hover,
 
 /* Footer styles */
 .footer {
-    background-color: #122d47; /* Dark blue background */
+    background-color: #122d47;
     color: #f5f5dc;
     padding: 2rem 1rem;
     display: flex;
@@ -251,11 +250,11 @@ body main a:hover,
     font-size: 2rem;
     margin-left: 3rem;
     margin-bottom: 0;
-    font-weight: normal; /* Ensure normal font weight */
+    font-weight: normal;
 }
 
 .footer-left img {
-    height: 18vh; /* Make the logo larger */
+    height: 18vh;
     margin-top: 1rem;
     margin-left: 2rem;
 }
@@ -274,13 +273,13 @@ body main a:hover,
 .footer-column {
     display: flex;
     flex-direction: column;
-    margin-right: 2rem; /* Add margin to align more closely to the right */
+    margin-right: 2rem;
 }
 
 .footer-column h3 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    font-weight: normal; /* Ensure normal font weight */
+    font-weight: normal;
 }
 
 .footer-column ul {
@@ -303,16 +302,16 @@ body main a:hover,
 }
 
 .footer-license {
-    font-size: 0.8rem; /* Adjust the font size as needed */
+    font-size: 0.8rem;
     text-align: left;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
 }
 
 .footer-license a {
     text-decoration: none;
-    font-size: 0.8rem; /* Adjust the font size as needed */
+    font-size: 0.8rem;
     text-align: left;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
     color: #fcf55f;
 }
 
@@ -321,7 +320,7 @@ body main a:hover,
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 80%; /* Set width to 80% of the page */
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 0rem;
@@ -333,7 +332,7 @@ body main a:hover,
     text-align: center;
     align-items: center;
     font-family: "Monaco", monospace;
-    width: 30%; /* Adjust width as needed for desktop view */
+    width: 30%;
     margin-bottom: 1rem;
 }
 
@@ -356,7 +355,7 @@ body main a:hover,
 }
 
 .link-grid .grid-item img {
-    width: 80%; /* Scale the image to the width of the text */
+    width: 80%;
     height: auto; /* Maintain the aspect ratio */
     margin-bottom: 10px;
 }
@@ -388,7 +387,7 @@ body main a:hover,
 .centered-image {
     display: block;
     margin: 1rem auto; /* 1rem margin on top and bottom, auto for left and right */
-    width: 30%; /* Scale the image to 60% of the page width */
+    width: 30%;
 }
 
 .language-switch {
@@ -427,7 +426,7 @@ body main a:hover,
     min-width: 3rem;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    padding: 0px; /* Add padding to create space inside the box */
+    padding: 0px;
     top: 100%; /* Position directly below the parent */
     left: 50%; /* Adjust this value to move the center further to the left */
     transform: translateX(-50%); /* Center the dropdown */
@@ -480,18 +479,18 @@ body main a:hover,
     list-style: none;
     padding: 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Monaco", monospace;
 }
 
 .mobile-navbar-links li {
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .mobile-navbar-links a {
     color: #f5f5dc;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .mobile-navbar-links a:hover {
@@ -499,77 +498,165 @@ body main a:hover,
 }
 
 .mobile-navbar-links img {
-    max-width: 100px; /* Set a maximum width for the logo */
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px 0; /* Add some margin around the logo */
+    max-width: 110px; /* Slightly bigger logo */
+    height: auto;
+    margin: 10px 0; /* Reduced margin */
 }
 
 .mobile-menu .language-switch {
     display: flex;
+    flex-direction: row; /* Align icon and buttons horizontally */
     justify-content: center;
     align-items: center;
-    margin: 20px 0; /* Add some margin around the language switch */
+    margin: 20px 0 40px 0;
+    gap: 15px; /* Spacing between icon and buttons container */
 }
 
 .mobile-menu .language-switch .dropdown-content {
-    left: 50%;
-    transform: translateX(-50%);
+    position: static;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    box-shadow: none;
+    gap: 10px;
+    transform: none;
+    margin-top: 0; /* Removed top margin to align with icon */
+}
+
+.mobile-menu .language-switch .dropdown-content a {
+    padding: 5px 10px;
+    border: 1px solid #fcf55f;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
 .toggle-button {
+    display: none;
     cursor: pointer;
 }
 
 /* Media query for narrower resolutions */
 @media (max-width: 768px) {
-    .toggle-button {
-        display: block;
-        flex-direction: column;
-        justify-content: center;
+    .navbar {
+        height: 8vh;
+        display: flex;
         align-items: center;
-        width: 30px;
-        height: 15px; /* Adjust the height to space the bars */
+        justify-content: space-between;
+        z-index: 1001; /* Ensure navbar is above the mobile menu */
+    }
+
+    .toggle-button {
+        display: flex;
         cursor: pointer;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 24px;
+        height: 18px;
+        z-index: 1002; /* Ensure button is above everything */
         margin-right: 1rem;
     }
 
     .toggle-button .bar {
-        height: 2px; /* Make the bars thinner */
+        display: block;
         width: 100%;
+        height: 3px;
         background-color: #fff;
-        border-radius: 2px;
-        margin: 4px 0; /* Add margin to space the bars */
+        border-radius: 3px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* Morphing to X */
+    .toggle-button.active .bar:nth-child(1) {
+        transform: translateY(7.5px) rotate(45deg);
+    }
+
+    .toggle-button.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .toggle-button.active .bar:nth-child(3) {
+        transform: translateY(-7.5px) rotate(-45deg);
     }
 
     .navbar-links {
         display: none;
     }
 
-    .navbar-links.active {
-        display: flex;
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #122d47;
+        z-index: 1000;
+        justify-content: flex-start;
+        align-items: center;
         flex-direction: column;
-        gap: 1rem;
-        margin-right: 0;
+        padding-top: 10vh;
+        overflow-y: auto;
+    }
+
+    .mobile-menu.active {
+        display: flex;
+    }
+
+    .mobile-navbar-links {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: "Monaco", monospace;
+    }
+
+    .mobile-navbar-links li {
+        margin: 20px 0;
+    }
+
+    .mobile-navbar-links a {
+        color: #f5f5dc;
+        text-decoration: none;
+    }
+
+    .mobile-navbar-links a:hover {
+        color: #fcf55f;
     }
 
     .hero-section {
         padding-top: 10vh; /* To account for the fixed navbar */
         margin-bottom: 0px; /* Reduce the margin for narrower widths */
-        background-position: center center; /* Move the background image further down */
     }
+
     .hero-header {
         padding-top: 0rem; /* Add some space below the navbar */
-        font-size: 4vw; /* Adjust the value as needed */
+        padding-bottom: 0.0rem;
+        margin: 0;
+        font-size: clamp(1.5rem, 7vw, 4.5rem); 
+        max-width: 90%;
+    }
+
+    .hero-subheader {
+        font-size: clamp(1.0rem, 1.5vw, 1.5rem);
+        max-width: 90%;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .index-hero {
-        background-size: cover;
-        height: 50vh;
+        background-image:
+            linear-gradient(#122d47 0 28vh, rgba(110, 62, 62, 0) 28vh),
+            url("../images/Aurora.avif");
+        background-size: contain;
+        height: 60vh;
+        background-position: top left, center 28vh;
+        background-repeat: no-repeat;
     }
 
     .agora-hero {
-        background-size: cover;
-        height: 50h;
+        background-size: contain;
+        height: 60vh;
+        background-position: center 70%;
     }
 
     .footer {
@@ -596,11 +683,11 @@ body main a:hover,
 
     .footer-left h2 {
         text-align: center;
-        margin-left: 0; /* Remove left margin */
+        margin-left: 0;
     }
 
     .footer-left img {
-        margin-left: 0; /* Remove left margin */
+        margin-left: 0;
     }
 
     .footer-license {
@@ -613,19 +700,8 @@ body main a:hover,
         margin-bottom: 1rem;
     }
 
-    .toggle-button {
-        display: block;
-    }
-
-    .navbar-links {
-        display: none;
-    }
-
     .link-grid {
-        margin-top: 20px; /* Reduce the margin for narrower widths */
-    }
-
-    .link-grid {
+        margin-top: 20px;
         flex-direction: column; /* Stack grid items vertically */
         align-items: center;
     }
