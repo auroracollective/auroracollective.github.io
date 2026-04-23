@@ -13,13 +13,13 @@ Course pricing starts as low as **1000 EUR**, but varies considering duration, s
 
 <img src="/images/drone.avif" style="display: block; margin: 0 auto; width: 40%;">
 
-1. **<a id="thinking" style="scroll-margin-top:10vh;"><a href="#thinking">From the Math to the Masses</a></a>** (a.k.a. _Scientific & Quantitative Thinking for Everyone_) -- 8-24 classroom hours (single day to few weeks distribution):
+1. **<a id="thinking" style="scroll-margin-top:10vh;"><a href="#thinking">From the Math to the Masses</a></a>** (a.k.a. _Scientific, Quantitative & Critical Thinking for Everyone_) -- 8-24 classroom hours (single day to few weeks distribution):
 
-Our first flagship course. _From the Math to the Masses_ uses an approach based on real-world problems to teach and demonstrate the process of developing a vague idea into a concrete, scientific, statistically-accurate research project.
-It shows how we can use statistical models (including Machine Learning/Artificial Intelligence) to formalize and solve open-ended problems, but how natural intelligence is still irreplaceable in this process.
+Our first flagship course. <a id="thinking" style="scroll-margin-top:10vh;"><a href="#thinking">_From the Math to the Masses_</a></a> uses real world problems and scientific developments to demonstrate how critical thinking is the bedrock for the development of scientific, quantitative, mathematicaly accurate projects that can transform vague ideas into concrete outcomes.
+It shows how we can use statistical models (including Machine Learning/Artificial Intelligence) to formalize and solve open-ended problems, but how natural intelligence is still irreplaceable in this process -- mathematics and computation are powerful tools, but human judgement cannot be replaced nor automated.
 It is the broadest and most complex of the course topics, also the most flexible and adaptable to different contexts. It can be taught as an intensive short course, or over a longer time period.
-Its audience can range from less technical professionals -- who will gain insight into how to think scientifically and formulate real world problems as data-driven, quantifiable, algorithmic tasks -- all the way to very technical personnel that will benefit from acquiring a critical and scientific view of the tools of the trade.
-The most important skill any professional will learn in this course is the importance of the interaction between humans and technology to better solve problems in their organization.
+Its audience can range from non-technical professionals -- who will gain insight into how to think scientifically and formulate real world problems as data-driven, quantifiable, algorithmic tasks -- all the way to very technical personnel that will benefit from acquiring a critical and scientific view of the tools of the trade.
+The most important skill any human will learn in this course is how to exercise their judgement in this context, and the importance of the interaction between humans and technology to better solve problems in their organization.
 
 <img src="/images/dumb.avif" style="display: block; margin: 0 auto; width: 40%;">
 

@@ -21,9 +21,7 @@ Data processor
 
 AURORA COLLECTIVE INTELLIGENCE
 
-Carrer de Pallars, 194, Sant Martí, 08005 Barcelona
-
-Tel: 900 533 175
+Passeig del Mare Nostrum, 15, Ciutat Vella, 08039 Barcelona
 
 Email: auroracoll@proton.me
 
